@@ -15,7 +15,8 @@
             $sv = $teo->GetSV();
         
             $this->view("layout_1", [
-                "Page" => "contact",
+                "Page" => "news",
+                "SV" => $teo->SinhVien(),
                 "number" => $sv
                 ]);
 
