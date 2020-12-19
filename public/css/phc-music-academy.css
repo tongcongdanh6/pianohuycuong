@@ -1,0 +1,106 @@
+html, body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 9;
+    background: #fff;
+}
+
+#top-sidebar {
+    height: 40px;
+    background: rgb(14,16,40);
+    background: -moz-linear-gradient(0deg, rgba(14,16,40,1) 0%, rgba(81,152,211,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(14,16,40,1) 0%, rgba(81,152,211,1) 100%);
+    background: linear-gradient(0deg, rgba(14,16,40,1) 0%, rgba(81,152,211,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e1028",endColorstr="#5198d3",GradientType=1);
+}
+
+/* Responsive Font size TOP SIDEBAR*/
+#top-sidebar * {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    #top-sidebar * {
+        font-size: 12px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 500px) {
+    #top-sidebar * {
+        font-size: 8px;
+        color: #fff;
+    }
+}
+
+/* Responsive Font size TOP SIDEBAR*/
+
+.top-sidebar-cell {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding: 5px 20px;
+}
+
+#language_list ul {
+    list-style: none;
+}
+
+#language_list ul li {
+    display: inline-block;
+}
+
+#searchform input, #searchform button {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+    border-radius: 0;
+    background: 0 0;
+    border: none;
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#searchform input::placeholder {
+    color: #fff;
+    padding: 10px 5px;
+}
+
+
+/* MENU */
+/* Auto dropdown menu */
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+#collapsibleNavId * {
+    font-family: "Raleway", sans-serif;
+}
+
+#collapsibleNavId ul {
+    font-weight: bold;
+}
+
+
+.caption-1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.caption-1::after {
+    height: 9px;
+    content: '';
+    display: block;
+    background: #5198d3; /*#0e1028;*/
+    right: 0;
+}

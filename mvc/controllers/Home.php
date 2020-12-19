@@ -5,8 +5,11 @@
 
             // Model
             $teo = $this->model("SinhVienModel");
-            echo $teo->GetSV();
 
+            $this->view("layout_1", [
+                "Page" => "contact",
+                "pageTitle" => "PHC Music & Performing Arts Academy"
+                ]);
             // View
         }
 
@@ -15,7 +18,7 @@
             $sv = $teo->GetSV();
         
             $this->view("layout_1", [
-                "Page" => "news",
+                "Page" => "contact",
                 "SV" => $teo->SinhVien(),
                 "number" => $sv
                 ]);

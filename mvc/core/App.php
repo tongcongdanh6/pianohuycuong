@@ -38,7 +38,7 @@
             // Xu ly PARAMS
             // Sau khi xoa arr[0] va arr[1] tu unset thi mang chi con params
             $this->params = $arr ? array_values($arr) : [];
-            print_r($this->params);
+            //print_r($this->params);
 
             // Ham nay tao ra bien controller, chay ham action, va tham so truyen vao la params
             call_user_func_array([$this->controller, $this->action], $this->params);
