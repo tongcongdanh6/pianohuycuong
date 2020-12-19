@@ -1,3 +1,8 @@
+:root {
+    --light-blue: #5198d3;
+    --dark-blue: #0e1028;
+}
+
 html, body {
     font-family: "Roboto", sans-serif;
     margin: 0;
@@ -137,24 +142,21 @@ html, body {
     position: relative;
     /* padding: 200px 50px; */
 }
-/* 
-.program-item::after {
-    background-color:lawngreen;
-    content: '';
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-} */
 
-.mask {
+.mask-black {
     width: 100%;
     height: 100%;
     position: absolute;
     background-color: #231f20;
     opacity: .8;
-    z-index: 10;
+}
+
+.mask-primary {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--dark-blue);
+    opacity: .8;
 }
 
 
@@ -170,4 +172,85 @@ html, body {
 
 .program-content {
     z-index: 11;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.program-content h2 {
+    font-size: 2em;
+}
+
+.program-content h3 {
+    font-size: 24px;
+    background-color: var(--light-blue);
+    padding: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.program-content a {
+    font-size: 12px;
+    font-style: italic;
+    color: #fff;
+}
+
+
+
+/* Events - News */
+#events-news .nav-link{
+    background-color: #fff;
+    font-size: 36px;
+}
+
+#events-news .nav-link.active {
+    color: var(--dark-blue);
+}
+
+#events-news i.line {
+    margin: 0 5px;
+    width: 2px;
+    height: 26px;
+    background: #292526;
+    display: inline-block;
+    position: relative;
+    transform: skew(-10deg);
+}
+
+.list-post-item {
+    border-radius: 10px;
+    box-shadow: var(--dark-blue) 12px 12px 0px;
+    position: relative;
+}
+
+.list-post-item .content {
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    background-color: #fff;
+    position: absolute;
+    bottom: -30px;
+    left: 60px;
+    width: calc(100% - 100px);
+    border: 1px solid var(--dark-blue);
+}
+
+.list-post-item * {
+    color: var(--dark-blue);
+}
+
+.list-post-item .content .date {
+    font-size: 11px;
+}
+
+.list-post-item .content .title {
+    font-size: 11px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+
+/* Footer */
+
+#wrapper-footer-full-widget {
+    background: #231f20;
 }
