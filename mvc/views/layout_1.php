@@ -25,8 +25,6 @@
                 <div class="top-sidebar-cell">
                     <i class="fab fa-facebook-square"></i>
                     <i class="fab fa-youtube"></i>
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fas fa-envelope"></i>
                 </div>
                 <div class="top-sidebar-cell">
                     <form method="get" id="searchform" action="../Search" role="search">
@@ -134,6 +132,14 @@
             <h3 class="caption-1 text-uppercase">
                 Các chương trình giáo dục
             </h3>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col program-item">asdasd</div>
+            <div class="col program-item">asdasd</div>
+            <div class="col program-item">asdasd</div>
         </div>
     </section>
     

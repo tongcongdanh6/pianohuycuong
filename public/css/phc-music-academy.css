@@ -5,6 +5,10 @@ html, body {
     box-sizing: border-box;
 }
 
+.bg-light {
+    background-color: #fff !important;
+}
+
 #wrapper-navbar {
     position: fixed;
     top: 0;
@@ -87,7 +91,11 @@ html, body {
 }
 
 #collapsibleNavId ul {
-    font-weight: bold;
+    font-weight: thin;
+}
+
+#collapsibleNavId ul li div {
+    font-size: 13px;
 }
 
 
@@ -104,3 +112,6 @@ html, body {
     background: #5198d3; /*#0e1028;*/
     right: 0;
 }
+
+/* Chuong trinh giao duc */
+
