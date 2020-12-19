@@ -26,7 +26,7 @@
                     <i class="fab fa-facebook-square"></i>
                     <i class="fab fa-youtube"></i>
                 </div>
-                <div class="top-sidebar-cell">
+                <div class="top-sidebar-cell" id="search-wrapper">
                     <form method="get" id="searchform" action="../Search" role="search">
                         <label class="sr-only" for="s">Search</label>
                         <div class="input-group">

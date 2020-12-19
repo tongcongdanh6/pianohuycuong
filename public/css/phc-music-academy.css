@@ -79,6 +79,12 @@ html, body {
     padding: 10px 5px;
 }
 
+@media (max-width: 500px) {
+    #search-wrapper {
+        display: none;
+    }
+}
+
 
 /* MENU */
 /* Auto dropdown menu */
@@ -114,4 +120,3 @@ html, body {
 }
 
 /* Chuong trinh giao duc */
-
