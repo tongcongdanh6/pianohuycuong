@@ -135,11 +135,37 @@
         </div>
     </section>
 
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col program-item">asdasd</div>
-            <div class="col program-item">asdasd</div>
-            <div class="col program-item">asdasd</div>
+    <section class="container-fluid" id="programs">
+        <div class="row h-100">
+            <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center program-item program-item-bg-1">
+                <div style="color: #fff" class="program-content">
+                    <h2>Chương trình</h2>
+                    <h3>TẠI SMPAA</h3>
+                    
+                    <a href="#"> >> Xem thêm</a>
+
+                </div>
+                <div class="mask"></div>
+            </div>
+            <div class="col-sm-12 col-md-4 d-flex program-item program-item-bg-2">
+            <div style="color: #fff">
+                    <h2>Chương trình</h2>
+                    <h3>TẠI SMPAA</h3>
+                    
+                    <a href="#"> >> Xem thêm</a>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 d-flex program-item program-item-bg-3">
+                
+            <div style="color: #fff">
+                    <h2>Chương trình</h2>
+                    <h3>TẠI SMPAA</h3>
+                    
+                    <a href="#"> >> Xem thêm</a>
+
+                </div>
+            </div>
         </div>
     </section>
     
