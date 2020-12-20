@@ -6,10 +6,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Cache-Control" content="no-cache">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,bold" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,bold" type="text/css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../public/vendors/bootstrap-4.1.3/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="../public/vendors/fontawesome-free-5.15.1-web/css/all.css">
     <link rel="stylesheet" href="../public/css/phc-music-academy.css">
 </head>
@@ -19,20 +21,20 @@
     <!-- NAV -->
 
     <div id="wrapper-navbar">
-        <div id="top-sidebar" class="container-fluid">
+        <!-- <div id="top-sidebar" class="container-fluid">
             <div class="container d-flex justify-content-end" style="height: inherit">
                 <div class="top-sidebar-cell"><strong>PHC Music & Performing Arts Academy</strong></div>
-                <div class="top-sidebar-cell"><img src="../public/images/flags/vi.png" class="img-fluid"> | <img src="../public/images/flags/en.png"></div>
+                <div class="top-sidebar-cell"><img src="../public/images/flags/vi.png" class="img-fluid"> <img src="../public/images/flags/en.png"></div>
                 <div class="top-sidebar-cell">Liên hệ</div>
                 <div class="top-sidebar-cell">
                     <i class="fab fa-facebook-square"></i>
                     <i class="fab fa-youtube"></i>
                 </div>
                 <div class="top-sidebar-cell" id="search-wrapper">
-                    <form method="get" id="searchform" action="../Search" role="search">
+                    <form method="get" id="searchform" action="../Search" role="search" class="h-100">
                         <label class="sr-only" for="s">Search</label>
-                        <div class="input-group">
-                            <input class="field form-control" id="searchKeyword" name="searchKeyword" type="text" placeholder="Search …" value="">
+                        <div class="input-group h-100">
+                            <input class="field form-control h-100" id="searchKeyword" name="searchKeyword" type="text" placeholder="Search …" value="">
                             <span class="input-group-append">
                                 <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                             </span>
@@ -40,17 +42,47 @@
                     </form>
                 </div>
             </div>
+        </div> -->
+        <div class="container-fluid top-sidebar-dark">
+            <div class="container">
+                <nav class="navbar navbar-expand-sm navbar-dark py-1">
+                    
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+                    <div class="collapse navbar-collapse justify-content-end" id="top-sidebar-link">
+                        <ul class="navbar-nav mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link"><strong>PHC Music & Performing Arts Academy</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"><img src="../public/images/flags/vi.png" class="img-fluid"> <img src="../public/images/flags/en.png"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Liên hệ</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0 pl-2" id="searchform">
+                            <label class="sr-only" for="s">Search</label>
+                            <div class="input-group h-100">
+                                <input class="field form-control h-100" id="searchKeyword" name="searchKeyword" type="text" placeholder="Search …" value="">
+                                <span class="input-group-append">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+            </div>
         </div>
 
         <div class="container-fluid">
             <div class="container">
-                <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#"><img src="../public/images/logo.png" width="80"></a>
                     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <ul class="navbar-nav mt-2 mt-lg-0">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Về PHCM & PAA</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownId">
@@ -99,7 +131,7 @@
 
     <!-- ./NAV -->
 
-    <section class="container-fluid" id="banner">
+    <section class="container-fluid" id="banner" style="padding-top: 150px">
         <div class="row">
             <div id="carouselId" class="carousel slide m-0 p-0" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -137,36 +169,36 @@
     </section>
 
     <section class="container-fluid" id="programs">
-        <div class="row h-100">
-            <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center program-item program-item-bg-1">
-                <div style="color: #fff" class="program-content">
-                    <h2>Chương trình</h2>
-                    <h3>TẠI SMPAA</h3>
-                    <h4></h4>
-                    <a href="#"> >> Xem thêm</a>
-
+        <div class="row">
+            <div class="col-sm-12 col-md-4 p-0 program-item-bg-1">
+                <div style="color: #fff" class="program-content overlay-color-gray">
+                    <div class="content">
+                        <h2>Chương trình</h2>
+                        <h3>TẠI SMPAA</h3>
+                        <h4></h4>
+                        <a href="#"> >> Xem thêm</a>
+                    </div>
                 </div>
-                <div class="mask-black"></div>
             </div>
-            <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center program-item program-item-bg-2">
-                <div style="color: #fff" class="program-content">
-                    <h2>Chương trình</h2>
-                    <h3>TẠI SMPAA</h3>
-                    <h4></h4>
-                    <a href="#"> >> Xem thêm</a>
+            <div class="col-sm-12 col-md-4 p-0 program-item-bg-2">
+                <div class="program-content overlay-color-dark-blue">
+                    <div class="content">
+                        <h2>Chương trình</h2>
+                        <h3>TẠI SMPAA</h3>
+                        <h4></h4>
+                        <a href="#"> >> Xem thêm</a>
+                    </div>
                 </div>
-                <div class="mask-primary"></div>
             </div>
-            <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center program-item program-item-bg-3">
-
-                <div style="color: #fff" class="program-content">
-                    <h2>Chương trình</h2>
-                    <h3>TẠI SMPAA</h3>
-                    <h4></h4>
-                    <a href="#"> >> Xem thêm</a>
-
+            <div class="col-sm-12 col-md-4 p-0 program-item-bg-3">
+                <div style="color: #fff" class="program-content overlay-color-gray">
+                    <div class="content">
+                        <h2>Chương trình</h2>
+                        <h3>TẠI SMPAA</h3>
+                        <h4></h4>
+                        <a href="#"> >> Xem thêm</a>
+                    </div>
                 </div>
-                <div class="mask-black"></div>
             </div>
         </div>
     </section>
@@ -189,8 +221,11 @@
             <div class="tab-content">
                 <div id="events" class="container tab-pane active">
                     <div class="row">
-                        <div class="col-sm-12 col-md-4 list-post-item">
-                            <img src="https://smpaa.edu.vn/wp-content/uploads/2020/10/SMPAA-MASTER-CLASS_GERARD_Website-Banner-scaled.jpg" class="img-fluid">
+                        <div class="col-sm-12 col-md-4 p-x-5 list-post-item">
+                            <div class="thumb">
+                                <img src="https://smpaa.edu.vn/wp-content/uploads/2020/10/SMPAA-MASTER-CLASS_GERARD_Website-Banner-scaled.jpg">
+                            </div>
+
                             <div class="content">
                                 <div class="date">
                                     <a href="https://smpaa.edu.vn/new_event/master-class/">04/12/2020</a>
@@ -200,7 +235,9 @@
                         </div>
 
                         <div class="col-sm-12 col-md-4 list-post-item">
-                            <img src="https://smpaa.edu.vn/wp-content/uploads/2020/12/SMPAA_ON-THE-MOVE-WORKSHOP_FB-Cover_851x315.jpg" class="img-fluid">
+                            <div class="thumb">
+                                <img src="https://smpaa.edu.vn/wp-content/uploads/2020/12/SMPAA_ON-THE-MOVE-WORKSHOP_FB-Cover_851x315.jpg">
+                            </div>
                             <div class="content">
                                 <div class="date">
                                     <a href="https://smpaa.edu.vn/new_event/master-class/">04/12/2020</a>
@@ -210,7 +247,9 @@
                         </div>
 
                         <div class="col-sm-12 col-md-4 list-post-item">
-                            <img src="https://smpaa.edu.vn/wp-content/uploads/2020/11/SMPAA_4P_Web-Banner_1920x1080-1-01-scaled.jpg" class="img-fluid">
+                            <div class="thumb">
+                                <img src="https://smpaa.edu.vn/wp-content/uploads/2020/11/SMPAA_4P_Web-Banner_1920x1080-1-01-scaled.jpg">
+                            </div>
                             <div class="content">
                                 <div class="date">
                                     <a href="https://smpaa.edu.vn/new_event/master-class/">04/12/2020</a>
@@ -235,8 +274,20 @@
                 </div>
 
 
-                <div id="news" class="container tab-pane fade">
+                <div id="news" class="container tab-pane fade in">
                     <div class="row">
+
+                        <div class="col-sm-12 col-md-4 list-post-item">
+                            <img src="https://smpaa.edu.vn/wp-content/uploads/2020/11/SMPAA_4P_Web-Banner_1920x1080-1-01-scaled.jpg" class="img-fluid">
+                            <div class="content">
+                                <div class="date">
+                                    <a href="https://smpaa.edu.vn/new_event/master-class/">04/12/2020</a>
+                                </div>
+                                <a class="title" href="https://smpaa.edu.vn/new_event/master-class/">MASTERCLASS</a>
+                            </div>
+                        </div>
+
+
                         <div class="col-sm-12 col-md-4 list-post-item">
                             <img src="https://smpaa.edu.vn/wp-content/uploads/2020/10/SMPAA-MASTER-CLASS_GERARD_Website-Banner-scaled.jpg" class="img-fluid">
                             <div class="content">
@@ -247,18 +298,10 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-12 col-md-4 list-post-item">
-                            <img src="https://smpaa.edu.vn/wp-content/uploads/2020/12/SMPAA_ON-THE-MOVE-WORKSHOP_FB-Cover_851x315.jpg" class="img-fluid">
-                            <div class="content">
-                                <div class="date">
-                                    <a href="https://smpaa.edu.vn/new_event/master-class/">04/12/2020</a>
-                                </div>
-                                <a class="title" href="https://smpaa.edu.vn/new_event/master-class/">MASTERCLASS</a>
-                            </div>
-                        </div>
+
 
                         <div class="col-sm-12 col-md-4 list-post-item">
-                            <img src="https://smpaa.edu.vn/wp-content/uploads/2020/11/SMPAA_4P_Web-Banner_1920x1080-1-01-scaled.jpg" class="img-fluid">
+                            <img src="https://smpaa.edu.vn/wp-content/uploads/2020/12/SMPAA_ON-THE-MOVE-WORKSHOP_FB-Cover_851x315.jpg" class="img-fluid">
                             <div class="content">
                                 <div class="date">
                                     <a href="https://smpaa.edu.vn/new_event/master-class/">04/12/2020</a>
@@ -272,53 +315,25 @@
         </div>
     </section>
 
-    <div class="wrapper" id="wrapper-footer-full-widget">
+    <div class="wrapper container-fluid" id="wrapper-footer-full-widget">
 
-        <div class="container" id="footer-full-content" tabindex="-1">
+        <div class="container py-5" id="footer-full-content" tabindex="-1">
 
             <div class="row">
-                <div class="col-md-8">
-                    <div id="text-5" class="widget-odd widget-last widget-first widget-1 contact-footer widget widget_text">
-                        <div class="textwidget">
-                            <p><a href="https://embassyeducation.edu.vn/" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="alignnone wp-image-1219 size-medium" src="/wp-content/uploads/2019/08/LogoEmbassy.svg" alt="" width="80" height="70"></a>&nbsp; &nbsp; <a href="https://enpointe.com.vn/" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="alignnone wp-image-1176" src="/wp-content/uploads/2019/12/ManagedByEnPointewhite.svg" alt="" width="100" height="68"></a></p>
-                            <p style="color: #999999;">© 2019 SMPAA is a member of Embassy Education Group ALL RIGHTS RESERVED</p>
-                        </div>
-                    </div>
+                <div class="col-md-4 col-sm-12">
+                    <p>PHC Music & Performing Arts Academy</p>
+                    <p><strong>Địa chỉ:</strong> Lorem ipsum dolor sit amet.</p>
+
                 </div>
-                <div class="col-md-4">
-                    <div id="text-4" class="widget-even widget-2 contact-footer widget widget_text">
-                        <div class="textwidget">
-                            <p><b>Soul Music &amp; Performing Arts Academy</b><br>
-                                Một thành viên của <b>Embassy Education Group</b><br>
-                                Địa chỉ: 214 Pasteur, Phường 6, Quận 3, TP.HCM<br>
-                                Điện thoại: <a href="tel:02871017778"><b>0287 1017 778</b></a><br>
-                                Website: <a href="http://smpaa.edu.vn"><b>smpaa.edu.vn</b></a></p>
-                        </div>
-                    </div>
-                    <div id="sow-social-media-buttons-2" class="widget-odd widget-last widget-3 widget widget_sow-social-media-buttons">
-                        <div class="so-widget-sow-social-media-buttons so-widget-sow-social-media-buttons-atom-00754f84235f">
+                <div class="col-md-4 col-sm-12">
+                    <p><i class="fas fa-phone-alt"></i> <strong> Điện thoại:</strong> 0123456789 </p>
+                    <p><i class="fas fa-envelope"></i> <strong> Email:</strong> samplemail@company.com </p>
 
-                            <div class="social-media-button-container">
-
-                                <a class="ow-button-hover sow-social-media-button-facebook-0 sow-social-media-button" title="SMPAA on Facebook" aria-label="SMPAA on Facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/smpaa.edu.vn/">
-                                    <span>
-                                        <span class="sow-icon-fontawesome sow-fab" data-sow-icon=""></span> </span>
-                                </a>
-
-                                <a class="ow-button-hover sow-social-media-button-youtube-0 sow-social-media-button" title="SMPAA on Youtube" aria-label="SMPAA on Youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/SoulEntertainmentMV">
-                                    <span>
-                                        <span class="sow-icon-fontawesome sow-fab" data-sow-icon=""></span> </span>
-                                </a>
-
-                                <a class="ow-button-hover sow-social-media-button-instagram-0 sow-social-media-button" title="SMPAA on Instagram" aria-label="SMPAA on Instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/smpaavietnam/">
-                                    <span>
-                                        <span class="sow-icon-fontawesome sow-fab" data-sow-icon=""></span> </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
+                <div class="col-md-4 col-sm-12 text-center">
+                    <i class="fab fa-facebook-square mr-5" style="font-size: 30px"></i>
+                    <i class="fab fa-youtube-square" style="font-size: 30px"></i>
+                </div>
 
             </div>
 
