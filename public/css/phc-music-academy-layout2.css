@@ -1,0 +1,7 @@
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+h2::after {
+    content: '';
+    display: block;
+}

@@ -1,3 +1,7 @@
+<?php
+$_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,9 +14,11 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
-  <link href="../public/vendors/mdb/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="../public/vendors/mdb/css/mdb.min.css" rel="stylesheet">
+  <link href="<?= $_GLOBAL["publicURL"]; ?>/public/vendors/mdb/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="<?= $_GLOBAL["publicURL"]; ?>/public/vendors/mdb/css/mdb.min.css" rel="stylesheet">
+
+  <link href="<?= $_GLOBAL["publicURL"]; ?>/public/css/phc-music-academy-layout2.css" rel="stylesheet">
   <style>
     html,
     body,
@@ -50,12 +56,10 @@
         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
       }
     }
-
   </style>
 </head>
 
 <body class="university-lp">
-
   <!--Navigation & Intro-->
   <header>
 
@@ -63,41 +67,56 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <strong>Navbar</strong>
+          <strong><img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/logo.png" class="img-fluid" width="75" alt="Logo"></strong>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <!--Links-->
-          <ul class="navbar-nav mr-auto smooth-scroll">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home
-                <span class="sr-only">(current)</span>
-              </a>
+          <ul class="navbar-nav smooth-scroll">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Về PHCM &amp; PAA</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Lời chào mừng từ Nhà Sáng Lập</a>
+                <a class="dropdown-item" href="#">Brochure</a>
+              </div>
             </li>
             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Về PHCM &amp; PAA</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                    <a class="dropdown-item" href="#">Lời chào mừng từ Nhà Sáng Lập</a>
-                                    <a class="dropdown-item" href="#">Brochure</a>
-                                </div>
-                            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#info" data-offset="100">Info</a>
+              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chương trình giáo dục</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Tổng quan</a>
+                <a class="dropdown-item" href="#">Chương trình âm nhạc</a>
+                <a class="dropdown-item" href="#">Chương trình vũ đạo</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Học viện trực tuyến</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Tổng quan</a>
+                <a class="dropdown-item" href="#">Chương trình âm nhạc Online</a>
+                <a class="dropdown-item" href="#">Chương trình vũ đạo Online</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hoạt động tại trường</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Hoạt động cộng đồng</a>
+                <a class="dropdown-item" href="#">Chương trình ngoại khóa</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Liên hệ</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Liên hệ hợp tác</a>
+                <a class="dropdown-item" href="#">Liên hệ học tập</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#courses" data-offset="100">Courses</a>
+              <a href="#vi" class="nav-link"><img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/flags/vi.png"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#events" data-offset="100">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials" data-offset="100">Opinions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="modal" data-target="#modal-contact">Contact</a>
+              <a href="#en" class="nav-link"><img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/flags/en.png"></a>
             </li>
           </ul>
 
@@ -125,28 +144,24 @@
     <!--Navbar-->
 
     <!-- Intro Section -->
-    <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
-      style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/67.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?= $_GLOBAL["publicURL"]; ?>/public/images/mdb/67.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
       <div class="mask rgba-black-strong">
         <div class="container h-100 d-flex justify-content-center align-items-center">
           <div class="row smooth-scroll">
             <div class="col-md-12 white-text text-center">
               <div class="wow fadeInDown" data-wow-delay="0.2s">
-                <h2 class="display-3 font-weight-bold mb-2">University</h2>
+                <h2 class="display-3 font-weight-bold mb-2">PHC Music & Performing Arts Academy</h2>
                 <hr class="hr-light">
-                <h3 class="subtext-header mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit deleniti
-                  consequuntur.</h3>
+                <h3 class="subtext-header mt-4 mb-5">Lời giới thiệu ...</h3>
               </div>
-              <a href="#events" data-offset="100" class="btn btn-info wow fadeInLeft" data-wow-delay="0.2s">Events</a>
-              <a href="#courses" data-offset="100" class="btn btn-warning wow fadeInRight"
-                data-wow-delay="0.2s">Courses</a>
+              <a href="#events" data-offset="100" class="btn btn-info wow fadeInLeft" data-wow-delay="0.2s">Sự kiện</a>
+              <a href="#top-courses" data-offset="100" class="btn btn-warning wow fadeInRight" data-wow-delay="0.2s">Các chương trình đào tạo</a>
+
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
   </header>
   <!--Navigation & Intro-->
 
@@ -159,7 +174,7 @@
       <section id="about" class="mt-4 mb-2">
 
         <!--Secion heading-->
-        <h2 class="text-center my-5 font-weight-bold wow fadeIn" data-wow-delay="0.2s">About University</h2>
+        <h2 class="text-center my-5 font-weight-bold wow fadeIn" data-wow-delay="0.2s">Giới thiệu PHC Music & Performing Arts Academy</h2>
 
         <!--First row-->
         <div class="row">
@@ -168,8 +183,7 @@
           <div class="col-lg-5 col-md-12 mb-5 pb-4 wow fadeIn" data-wow-delay="0.4s">
 
             <!--Image-->
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%289%29.jpg"
-              class="img-fluid z-depth-1 rounded" alt="My photo">
+            <img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/mdb/img_1.jpg" class="img-fluid z-depth-1 rounded" alt="My photo">
 
           </div>
           <!--First column-->
@@ -183,16 +197,11 @@
               ab cupiditate iure eaque? Repellendus voluptatum, magni impedit eaque animi maxime.
             </p>
 
-            <p align="justify">Nemo animi soluta ratione quisquam, dicta ab cupiditate iure eaque? Repellendus
-              voluptatum, magni
-              impedit eaque delectus, beatae maxime temporibus maiores quibusdam quasi rem magnam ad perferendis
-              iusto.</p>
+            <p align="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores error fugiat porro omnis sequi, voluptatibus officia voluptatum! Aspernatur officiis obcaecati accusamus eius ullam officia, dolore labore, vitae veniam quasi temporibus.</p>
 
             <ul>
-              <li>Nemo animi soluta ratione</li>
-              <li>Beatae maxime temporibus</li>
-              <li>Consectetur adipisicing elit</li>
-              <li>Repellendus voluptatum, impedit</li>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
             </ul>
 
           </div>
@@ -210,8 +219,7 @@
       <section id="info" class="mt-4 mb-5 pb-4">
 
         <!--Section heading-->
-        <h2 class="text-center mb-5 font-weight-bold pt-5 pb-4 my-5 wow fadeIn" data-wow-delay="0.2s">Organizational
-          issues</h2>
+        <h2 class="text-center mb-5 font-weight-bold pt-5 pb-4 my-5 wow fadeIn" data-wow-delay="0.2s">Sự kiện / Tin tức</h2>
         <!--Section description-->
         <p class="text-center w-responsive mx-auto my-5 grey-text wow fadeIn" data-wow-delay="0.2s">Duis aute irure
           dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
@@ -231,22 +239,12 @@
                 <li class="nav-item">
                   <a class="nav-link active" data-toggle="tab" href="#panel31" role="tab">
                     <i class="fas fa-graduation-cap fa-2x"></i>
-                    <br> Students</a>
+                    <br> Sự kiện</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" data-toggle="tab" href="#panel32" role="tab">
                     <i class="fas fa-users fa-2x"></i>
-                    <br> Candidates</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#panel33" role="tab">
-                    <i class="fas fa-university fa-2x"></i>
-                    <br> Financial</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#panel34" role="tab">
-                    <i class="fas fa-home fa-2x"></i>
-                    <br> Housing</a>
+                    <br> Tin tức</a>
                 </li>
               </ul>
 
@@ -257,38 +255,149 @@
 
               <!--Panel 1-->
               <div class="tab-pane fade in show active" id="panel31" role="tabpanel">
-                <br>
 
                 <!--First row-->
-                <div class="row">
+                <div class="row mb-5 pb-3">
 
-                  <!--First column-->
-                  <div class="col-lg-5 col-md-12">
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
 
-                    <!--Featured image-->
-                    <div class="view overlay z-depth-1 mb-2">
-                      <img src="https://mdbootstrap.com/img/Photos/Others/images/54.jpg" class="rounded img-fluid"
-                        alt="sample image">
+                    <!--Card Light-->
+                    <div class="card h-100">
+                      <!--Card image-->
+                      <div class="view overlay">
+                        <img src="https://mdbootstrap.com/img/Photos/Others/images/51.jpg" class="card-img-top" alt="">
+                        <a>
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+                      <!--/.Card image-->
+                      <!--Card content-->
+                      <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title darkgrey-text">
+                          <strong>Học trực tuyến</strong>
+                        </h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="font-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ex.
+                        </p>
+                        <a href="#" class="black-text d-flex flex-row-reverse">
+                          <p class="waves-effect p-2 font-small blue-text mb-0">Xem thêm
+                            <i class="fas fa-long-arrow-alt-right ml-2" aria-hidden="true"></i>
+                          </p>
+                        </a>
+                      </div>
+                      <!--/.Card content-->
                     </div>
-                  </div>
-                  <!--First column-->
-
-                  <!--Second column-->
-                  <div class="col-lg-6 ml-lg-auto col-md-12 text-center text-md-left">
-
-                    <!--Title-->
-                    <h4 class="mb-5">Academics Students</h4>
-
-                    <!--Description-->
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta
-                      ratione
-                      quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit
-                      eaque delectus, beatae maxime temporibus maiores quibusdam quasi.Rem magnam ad
-                      perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut
-                      possimus in hic molestias repellendus illo ullam odit quia velit.</p>
+                    <!--/.Card Light-->
 
                   </div>
-                  <!--Second column-->
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+
+                    <!--Card Light-->
+                    <div class="card h-100">
+                      <!--Card image-->
+                      <div class="view overlay">
+                        <img src="https://mdbootstrap.com/img/Photos/Others/images/40.jpg" class="card-img-top" alt="">
+                        <a>
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+                      <!--/.Card image-->
+                      <!--Card content-->
+                      <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title darkgrey-text">
+                          <strong>Học tại PHCM & PAA</strong>
+                        </h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, sed eligendi.
+                        </p>
+                        <a href="#" class="black-text d-flex flex-row-reverse">
+                          <p class="waves-effect p-2 font-small blue-text mb-0">Xem thêm
+                            <i class="fas fa-long-arrow-alt-right ml-2" aria-hidden="true"></i>
+                          </p>
+                        </a>
+                      </div>
+                      <!--/.Card content-->
+                    </div>
+                    <!--/.Card Light-->
+
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+
+                    <!--Card Light-->
+                    <div class="card h-100">
+                      <!--Card image-->
+                      <div class="view overlay">
+                        <img src="https://mdbootstrap.com/img/Photos/Others/images/56.jpg" class="card-img-top" alt="">
+                        <a>
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+                      <!--/.Card image-->
+
+                      <!--Card content-->
+                      <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title darkgrey-text">
+                          <strong>Đặc biệt</strong>
+                        </h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="font-small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel rem dignissimos ad!
+                        </p>
+                        <a href="#" class="black-text d-flex flex-row-reverse">
+                          <p class="waves-effect p-2 font-small blue-text mb-0">Xem thêm
+                            <i class="fas fa-long-arrow-alt-right ml-2" aria-hidden="true"></i>
+                          </p>
+                        </a>
+                      </div>
+                      <!--/.Card content-->
+                    </div>
+                    <!--/.Card Light-->
+
+                  </div>
+                  <!--Grid column-->
+                  <!--Grid column-->
+
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <nav>
+                      <ul class="pagination pg-dark justify-content-center">
+                        <li class="page-item">
+                          <a class="page-link" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link">1</a></li>
+                        <li class="page-item"><a class="page-link">2</a></li>
+                        <li class="page-item"><a class="page-link">3</a></li>
+                        <li class="page-item"><a class="page-link">4</a></li>
+                        <li class="page-item"><a class="page-link">5</a></li>
+                        <li class="page-item">
+                          <a class="page-link" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
                 </div>
                 <!--First row-->
 
@@ -307,8 +416,7 @@
 
                     <!--Featured image-->
                     <div class="view overlay z-depth-1 mb-2">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2840%29.jpg"
-                        class="rounded img-fluid" alt="sample image">
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2840%29.jpg" class="rounded img-fluid" alt="sample image">
                     </div>
                   </div>
                   <!--First column-->
@@ -347,8 +455,7 @@
 
                     <!--Featured image-->
                     <div class="view overlay z-depth-1 mb-2">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2841%29.jpg"
-                        class="rounded img-fluid" alt="sample image">
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2841%29.jpg" class="rounded img-fluid" alt="sample image">
                     </div>
                   </div>
                   <!--First column-->
@@ -387,8 +494,7 @@
 
                     <!--Featured image-->
                     <div class="view overlay z-depth-1 mb-2">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2842%29.jpg"
-                        class="rounded img-fluid" alt="sample image">
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2842%29.jpg" class="rounded img-fluid" alt="sample image">
                     </div>
                   </div>
                   <!--First column-->
@@ -430,16 +536,14 @@
     </div>
 
     <!--Streak-->
-    <div class="streak streak-photo streak-md"
-      style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Things/full%20page/img%20%287%29.jpg');">
+    <div class="streak streak-photo streak-md" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Things/full%20page/img%20%287%29.jpg');">
       <div class="flex-center mask rgba-indigo-strong">
         <div class="text-center white-text">
           <h2 class="h2-responsive mb-5">
-            <i class="fas fa-quote-left" aria-hidden="true"></i> Creativity requires the courage to let go of
-            certainties
+            <i class="fas fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, non tempora. Accusamus?
             <i class="fas fa-quote-right" aria-hidden="true"></i>
           </h2>
-          <h5 class="text-center font-italic " data-wow-delay="0.2s">~ Erich Fromm</h5>
+          <h5 class="text-center font-italic " data-wow-delay="0.2s">~ Author</h5>
         </div>
       </div>
     </div>
@@ -450,18 +554,17 @@
       <div class="container py-3">
 
         <!--Section: Blog v.2-->
-        <section class="extra-margins text-center">
-
-          <h2 class="text-center mb-5 my-5 pt-4 pb-4 font-weight-bold"> Top courses</h2>
+        <section class="extra-margins text-center" id="top-courses">
+          <h2 class="text-center mb-5 my-5 pt-4 pb-4 font-weight-bold"> Chương trình giảng dạy</h2>
 
           <!--Grid row-->
           <div class="row mb-5 pb-3">
 
             <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+            <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
 
               <!--Card Light-->
-              <div class="card">
+              <div class="card h-100">
                 <!--Card image-->
                 <div class="view overlay">
                   <img src="https://mdbootstrap.com/img/Photos/Others/images/51.jpg" class="card-img-top" alt="">
@@ -475,16 +578,14 @@
 
                   <!--Title-->
                   <h4 class="card-title darkgrey-text">
-                    <strong>Economy</strong>
+                    <strong>Học trực tuyến</strong>
                   </h4>
                   <hr>
                   <!--Text-->
-                  <p class="font-small">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.
+                  <p class="font-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ex.
                   </p>
                   <a href="#" class="black-text d-flex flex-row-reverse">
-                    <p class="waves-effect p-2 font-small blue-text mb-0">Read more
+                    <p class="waves-effect p-2 font-small blue-text mb-0">Xem thêm
                       <i class="fas fa-long-arrow-alt-right ml-2" aria-hidden="true"></i>
                     </p>
                   </a>
@@ -497,10 +598,10 @@
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+            <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
 
               <!--Card Light-->
-              <div class="card">
+              <div class="card h-100">
                 <!--Card image-->
                 <div class="view overlay">
                   <img src="https://mdbootstrap.com/img/Photos/Others/images/40.jpg" class="card-img-top" alt="">
@@ -514,16 +615,14 @@
 
                   <!--Title-->
                   <h4 class="card-title darkgrey-text">
-                    <strong>Chemistry</strong>
+                    <strong>Học tại PHCM & PAA</strong>
                   </h4>
                   <hr>
                   <!--Text-->
-                  <p class="font-small">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.
+                  <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, sed eligendi.
                   </p>
                   <a href="#" class="black-text d-flex flex-row-reverse">
-                    <p class="waves-effect p-2 font-small blue-text mb-0">Read more
+                    <p class="waves-effect p-2 font-small blue-text mb-0">Xem thêm
                       <i class="fas fa-long-arrow-alt-right ml-2" aria-hidden="true"></i>
                     </p>
                   </a>
@@ -536,10 +635,10 @@
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+            <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
 
               <!--Card Light-->
-              <div class="card">
+              <div class="card h-100">
                 <!--Card image-->
                 <div class="view overlay">
                   <img src="https://mdbootstrap.com/img/Photos/Others/images/56.jpg" class="card-img-top" alt="">
@@ -554,16 +653,14 @@
 
                   <!--Title-->
                   <h4 class="card-title darkgrey-text">
-                    <strong>Journalism</strong>
+                    <strong>Đặc biệt</strong>
                   </h4>
                   <hr>
                   <!--Text-->
-                  <p class="font-small">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.
+                  <p class="font-small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel rem dignissimos ad!
                   </p>
                   <a href="#" class="black-text d-flex flex-row-reverse">
-                    <p class="waves-effect p-2 font-small blue-text mb-0">Read more
+                    <p class="waves-effect p-2 font-small blue-text mb-0">Xem thêm
                       <i class="fas fa-long-arrow-alt-right ml-2" aria-hidden="true"></i>
                     </p>
                   </a>
@@ -574,43 +671,6 @@
 
             </div>
             <!--Grid column-->
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
-
-              <!--Card Light-->
-              <div class="card">
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Others/images/57.jpg" class="card-img-top" alt="">
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <!--/.Card image-->
-                <!--Card content-->
-                <div class="card-body">
-
-                  <!--Title-->
-                  <h4 class="card-title darkgrey-text">
-                    <strong>Computer science</strong>
-                  </h4>
-                  <hr>
-                  <!--Text-->
-                  <p class="font-small">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.
-                  </p>
-                  <a href="#" class="black-text d-flex flex-row-reverse">
-                    <p class="waves-effect p-2 font-small blue-text mb-0">Read more
-                      <i class="fas fa-long-arrow-alt-right ml-2" aria-hidden="true"></i>
-                    </p>
-                  </a>
-                </div>
-                <!--/.Card content-->
-              </div>
-              <!--/.Card Light-->
-
-            </div>
             <!--Grid column-->
 
           </div>
@@ -627,14 +687,12 @@
       <section id="testimonials" class="mb-5">
 
         <!--Section heading-->
-        <h2 class="text-center mb-5 my-5 pt-5 pb-4 font-weight-bold wow fadeIn" data-wow-delay="0.2s">What Students
-          said:</h2>
+        <h2 class="text-center mb-5 my-5 pt-5 pb-4 font-weight-bold wow fadeIn" data-wow-delay="0.2s">Học viên nói gì về chúng tôi?</h2>
 
         <div class="row">
 
           <!--Carousel Wrapper-->
-          <div id="multi-item-example" class="carousel testimonial-carousel slide carousel-multi-item wow fadeIn"
-            data-ride="carousel">
+          <div id="multi-item-example" class="carousel testimonial-carousel slide carousel-multi-item wow fadeIn" data-ride="carousel">
 
             <!--Controls-->
             <div class="controls-top">
@@ -666,8 +724,7 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto mb-4">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(26).jpg"
-                        class="rounded-circle img-fluid">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(26).jpg" class="rounded-circle img-fluid">
                     </div>
                     <!--Content-->
                     <h4 class="font-weight-bold">Anna Deynah</h4>
@@ -695,8 +752,7 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto mb-4">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(27).jpg"
-                        class="rounded-circle img-fluid">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(27).jpg" class="rounded-circle img-fluid">
                     </div>
                     <!--Content-->
                     <h4 class="font-weight-bold">John Doe</h4>
@@ -724,8 +780,7 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto mb-4">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg"
-                        class="rounded-circle img-fluid">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="rounded-circle img-fluid">
                     </div>
                     <!--Content-->
                     <h4 class="font-weight-bold">Abbey Clark</h4>
@@ -758,8 +813,7 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto mb-4">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg"
-                        class="rounded-circle img-fluid">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" class="rounded-circle img-fluid">
                     </div>
                     <!--Content-->
                     <h4 class="font-weight-bold">Blake Dabney</h4>
@@ -786,8 +840,7 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto mb-4">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(6).jpg"
-                        class="rounded-circle img-fluid">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(6).jpg" class="rounded-circle img-fluid">
                     </div>
                     <!--Content-->
                     <h4 class="font-weight-bold">Andrea Clay</h4>
@@ -814,8 +867,7 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto mb-4">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(7).jpg"
-                        class="rounded-circle img-fluid">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(7).jpg" class="rounded-circle img-fluid">
                     </div>
                     <!--Content-->
                     <h4 class="font-weight-bold">Cami Gosse</h4>
@@ -849,8 +901,7 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto mb-4">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
-                        class="rounded-circle img-fluid">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle img-fluid">
                     </div>
                     <!--Content-->
                     <h4 class="font-weight-bold">Bobby Haley</h4>
@@ -878,8 +929,7 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto mb-4">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
-                        class="rounded-circle img-fluid">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid">
                     </div>
                     <!--Content-->
                     <h4 class="font-weight-bold">Elisa Janson</h4>
@@ -907,8 +957,7 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto mb-4">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
-                        class="rounded-circle img-fluid">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
                     </div>
                     <!--Content-->
                     <h4 class="font-weight-bold">Robert Jacobs</h4>
@@ -963,14 +1012,14 @@
           <!--Icon-->
           <i class="fas fa-graduation-cap fa-4x orange-text"></i>
           <!--Title-->
-          <h2 class="mt-3 mb-3">Join Us</h2>
+          <h2 class="mt-3 mb-3">Gia nhập gia đình PHCM & PAA</h2>
           <!--Description-->
           <p class="white-text mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et
             dolore magna aliqua.</p>
           <!--Reservation button-->
-          <a href="#!" class="btn btn-warning">Appliction</a>
-          <a href="#!" class="btn btn-info">Contact</a>
+          <a href="#!" class="btn btn-warning">Ứng tuyển</a>
+          <a href="#!" class="btn btn-info">Liên hệ hợp tác</a>
 
         </div>
         <!--First column-->
@@ -988,30 +1037,29 @@
           <!--First column-->
           <div class="col-xl-4 col-lg-4 pt-1 pb-1">
             <!--About-->
-            <h5 class="text-uppercase mb-3 font-weight-bold">ABOUT MATERIAL DESIGN</h5>
+            <h5 class="text-uppercase mb-3 font-weight-bold">PHC Music & Performing Arts Academy</h5>
 
-            <p>Material Design (codenamed Quantum Paper) is a design language developed by Google.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quaerat!</p>
 
-            <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS,
-              and JS framework - Bootstrap.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, modi maiores accusantium pariatur beatae neque.</p>
             <!--About-->
 
             <div class="footer-socials mt-4">
 
               <!--Facebook-->
-              <a type="button" class="btn-floating btn-blue-2 ">
+              <a type="button" class="btn-floating btn-dark-blue-2">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <!--Dribbble-->
-              <a type="button" class="btn-floating btn-blue-2 ">
-                <i class="fab fa-dribbble"></i>
+              <!--Youtube-->
+              <a type="button" class="btn-floating btn-dark-blue-2">
+                <i class="fab fa-youtube"></i>
               </a>
               <!--Twitter-->
-              <a type="button" class="btn-floating btn-blue-2 ">
+              <a type="button" class="btn-floating btn-dark-blue-2">
                 <i class="fab fa-twitter"></i>
               </a>
               <!--Google +-->
-              <a type="button" class="btn-floating btn-blue-2 ">
+              <a type="button" class="btn-floating btn-dark-blue-2">
                 <i class="fab fa-google-plus-g"></i>
               </a>
 
@@ -1024,13 +1072,13 @@
           <!--Second column-->
           <div class="col-xl-3 ml-lg-auto col-lg-4 col-md-6 mt-1 mb-1">
             <!--Search-->
-            <h5 class="text-uppercase mb-3 font-weight-bold">Search something</h5>
+            <h5 class="text-uppercase mb-3 font-weight-bold">Tìm kiếm</h5>
 
             <ul class="footer-search list-unstyled">
               <li>
                 <form class="search-form" role="search">
                   <div class="md-form">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" class="form-control" placeholder="Từ khóa ...">
                   </div>
                 </form>
               </li>
@@ -1038,13 +1086,13 @@
 
             <!--Info-->
             <p>
-              <i class="fas fa-home pr-1"></i> New York, NY 10012, US</p>
+              <i class="fas fa-home pr-1"></i> Thành Phố Hồ Chí Minh</p>
             <p>
-              <i class="fas fa-envelope pr-1"></i> info@example.com</p>
+              <i class="fas fa-envelope pr-1"></i> admin@example.com</p>
             <p>
-              <i class="fas fa-phone pr-1"></i> + 01 234 567 88</p>
+              <i class="fas fa-phone pr-1"></i> + 01 234 567 89</p>
             <p>
-              <i class="fas fa-print pr-1"></i> + 01 234 567 89</p>
+              <i class="fas fa-phone pr-1"></i> + 01 222 333 44</p>
 
           </div>
           <!--Second column-->
@@ -1054,29 +1102,29 @@
           <!--Third column-->
           <div class="col-xl-3 ml-lg-auto col-lg-4 col-md-6 mt-1 mb-1">
             <!--Contact-->
-            <h5 class="text-uppercase mb-3 font-weight-bold">Recent news</h5>
+            <h5 class="text-uppercase mb-3 font-weight-bold">Bài viết mới</h5>
 
             <ul class="footer-posts list-unstyled">
               <li>
-                <a>Ut enim ad minim veniam nostrud.</a>
+                <a>Lorem ipsum dolor sit amet.</a>
                 <span>
                   <p class="grey-text">28 july 2016</p>
                 </span>
               </li>
               <li>
-                <a>Duis aute dolor in reprehenderit.</a>
+                <a>Lorem ipsum dolor sit amet.</a>
                 <span>
                   <p class="grey-text">27 july 2016</p>
                 </span>
               </li>
               <li>
-                <a>Excepteur sint occaecat cupidatat.</a>
+                <a>Lorem ipsum dolor sit amet consectetur.</a>
                 <span>
                   <p class="grey-text">26 july 2016</p>
                 </span>
               </li>
               <li>
-                <a>Sed perspiciatis unde omnis iste.</a>
+                <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                 <span>
                   <p class="grey-text">25 july 2016</p>
                 </span>
@@ -1097,7 +1145,7 @@
     <!--Copyright-->
     <div class="footer-copyright py-3 text-center">
       <div class="container-fluid">
-        © 2019 Copyright: <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+        Bản quyền © 2021 thuộc về: <a href="<?= $_GLOBAL["publicURL"] ?>" target="_blank"> PHC Music & Performing Arts Academy </a>. Thiết kế bởi: <strong>TCD Team</strong>
       </div>
     </div>
     <!--Copyright-->
@@ -1107,31 +1155,56 @@
 
   <!--SCRIPTS-->
 
-  <script src="../public/vendors/mdb/js/jquery-3.4.1.min.js"></script>
+  <script src="<?= $_GLOBAL["publicURL"]; ?>/public/vendors/mdb/js/jquery-3.4.1.min.js"></script>
 
-<!--Bootstrap tooltips-->
-<script src="../public/vendors/mdb/js/popper.min.js"></script>
+  <!--Bootstrap tooltips-->
+  <script src="<?= $_GLOBAL["publicURL"]; ?>/public/vendors/mdb/js/popper.min.js"></script>
 
-<!--Bootstrap core JavaScript-->
-<script src="../public/vendors/mdb/js/bootstrap.min.js"></script>
+  <!--Bootstrap core JavaScript-->
+  <script src="<?= $_GLOBAL["publicURL"]; ?>/public/vendors/mdb/js/bootstrap.min.js"></script>
 
-<!--MDB core JavaScript-->
-<script src="../public/vendors/mdb/js/mdb.min.js"></script>
+  <!--MDB core JavaScript-->
+  <script src="<?= $_GLOBAL["publicURL"]; ?>/public/vendors/mdb/js/mdb.min.js"></script>
 
   <script>
     //Animation init
     new WOW().init();
 
     //Modal
-    $('#myModal').on('shown.bs.modal', function () {
+    $('#myModal').on('shown.bs.modal', function() {
       $('#myInput').focus()
     })
 
     // Material Select Initialization
-    $(document).ready(function () {
+    $(document).ready(function() {
       $('.mdb-select').material_select();
-    });
 
+
+      // SMOOTH SCROLL
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 2000, function() {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+
+    });
   </script>
 
 </body>

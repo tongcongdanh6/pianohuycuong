@@ -1,3 +1,6 @@
+<?php 
+$_GLOBAL["publicURL"] = "http://".$_SERVER["HTTP_HOST"]."/pianohuycuong";
+?>
 <!doctype html>
 <html lang="en">
 
@@ -10,10 +13,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,bold" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,bold" type="text/css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../public/vendors/bootstrap-4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=$_GLOBAL["publicURL"]?>/public/vendors/bootstrap-4.1.3/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="../public/vendors/fontawesome-free-5.15.1-web/css/all.css">
-    <link rel="stylesheet" href="../public/css/phc-music-academy.css">
+    <link rel="stylesheet" href="<?=$_GLOBAL["publicURL"]?>/public/vendors/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="<?=$_GLOBAL["publicURL"]?>/public/css/phc-music-academy.css">
 </head>
 
 <body>
@@ -54,7 +57,7 @@
                                 <a class="nav-link"><strong>PHC Music & Performing Arts Academy</strong></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"><img src="../public/images/flags/vi.png" class="img-fluid"> <img src="../public/images/flags/en.png"></a>
+                                <a class="nav-link"><img src="<?=$_GLOBAL["publicURL"]?>/public/images/flags/vi.png" class="img-fluid"> <img src="<?=$_GLOBAL["publicURL"]?>/public/images/flags/en.png"></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link">Liên hệ</a>
@@ -77,7 +80,7 @@
         <div class="container-fluid">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#"><img src="../public/images/logo.png" width="80"></a>
+                    <a class="navbar-brand" href="#"><img src="<?=$_GLOBAL["publicURL"]?>/public/images/logo.png" width="80"></a>
                     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -141,7 +144,7 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img src="../public/images/banner/banner2.jpg" class="img-fluid" alt="First slide">
+                        <img src="<?=$_GLOBAL["publicURL"]?>/public/images/banner/banner2.jpg" class="img-fluid" alt="First slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Title</h3>
                             <p>Description</p>
@@ -344,8 +347,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../public/vendors/jquery-3.5.1/jquery-3.5.1.min.js"></script>
-    <script src="../public/vendors/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+    <script src="<?=$_GLOBAL["publicURL"]?>/public/vendors/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="<?=$_GLOBAL["publicURL"]?>/public/vendors/bootstrap-4.1.3/js/bootstrap.min.js"></script>
 </body>
 
 </html>
