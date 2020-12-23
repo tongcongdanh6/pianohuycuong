@@ -13,8 +13,8 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
   <title>Material Design Bootstrap</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <link rel='stylesheet' id='gdlr-core-google-font-css' href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CABeeZee%3Aregular%2Citalic&#038;subset=devanagari%2Clatin%2Clatin-ext&#038;ver=5.5.3' type='text/css' media='all' />
-  <link rel='stylesheet' id='gdlr-core-google-font-css' href='http://fonts.googleapis.com/css?family=Spicy+Rice%3A400&ver=5.1.8' type='text/css' media='all' />
+  <link rel='stylesheet' id='gdlr-core-google-font-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CABeeZee%3Aregular%2Citalic&#038;subset=devanagari%2Clatin%2Clatin-ext&#038;ver=5.5.3' type='text/css' media='all' />
+  <link rel='stylesheet' id='gdlr-core-google-font-css'  href='http://fonts.googleapis.com/css?family=Spicy+Rice%3A400&ver=5.1.8' type='text/css' media='all' />
   <!-- Bootstrap core CSS -->
   <link href="<?= $_GLOBAL["publicURL"]; ?>/public/vendors/mdb/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -22,6 +22,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
 
   <link href="<?= $_GLOBAL["publicURL"]; ?>/public/css/phc-music-academy-layout2.css" rel="stylesheet">
   <style>
+
     html,
     body,
     header,
@@ -215,9 +216,6 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
       </section>
       <!--Section: About-->
 
-
-
-
       <hr>
 
       <!--Projects section v.3-->
@@ -240,7 +238,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
 
               <!--Nav tabs-->
               <ul class="nav md-pills pills-primary d-flex justify-content-center" role="tablist">
-                <li class="nav-item">
+              <li class="nav-item">
                   <a class="nav-link active" data-toggle="tab" href="#panel32" role="tab">
                     <i class="fas fa-users fa-2x"></i>
                     <br> Giảng viên</a>
@@ -541,123 +539,6 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
 
     </div>
 
-    <hr>
-    <div class="container-fluid">
-      <section class="container">
-        <div class="row">
-          <div class="col-sm-12 vc_column_container">
-            <div class="vc_column-inner">
-              <div class="wpb_wrapper">
-                <div class="es-resp">
-                  <div class="hidden-sm hidden-ms hidden-xs" style="height: 8px;">
-                  </div>
-                  <div class="hidden-xl hidden-lg hidden-md hidden-xs" style="height: 8px;"></div>
-                  <div class="visible-xs" style="height: 0px;"></div>
-                </div>
-                <div class="heading  head-subheader align-center color-black subcolor-second transform-default" id="like_sc_header_1052999607">
-                  <h2 class="header" style="font-family: Roboto, sans-serif;">Giảng viên kinh nghiệm của chúng tôi</h2>
-                </div>
-                <div class="mb-5">
-                  <div class="wpb_wrapper">
-                    <p style="text-align: center;"><span class="text-md">Pellentesque mattis mauris ac tortor
-                        volutpat, eu fermentum sapien euismod. In id tempus<br>
-                        metus. Donec eu volutpat nibh, in maximus ligula.</span>
-                    </p>
-                  </div>
-                </div>
-                <div class="es-resp">
-                  <div class="hidden-sm hidden-ms hidden-xs" style="height: 32px;">
-                  </div>
-                  <div class="hidden-xl hidden-lg hidden-md hidden-xs" style="height: 32px;"></div>
-                  <div class="visible-xs" style="height: 32px;"></div>
-                </div>
-                <div class="team-sc row">
-                  <div class="col-md-3 col-sm-6">
-                    <div class="team-item item matchHeight item-type-circle " style="visibility: visible; transform: translateY(0px) scale(1); opacity: 1; transition: all 0.3s ease 0s; height: 320px;" data-sr-id="26"><a href="#" class="image"><img width="1200" height="1200" src="<?= $_GLOBAL["publicURL"]; ?>/public/images/teachers/ly_huynh_long.jpg" class="attachment-full size-full" alt="" srcset="<?= $_GLOBAL["publicURL"]; ?>/public/images/teachers/ly_huynh_long.jpg 1200w, <?= $_GLOBAL["publicURL"]; ?>/public/images/teachers/ly_huynh_long.jpg 150w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-300x300.jpg 300w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-768x768.jpg 768w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-1024x1024.jpg 1024w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-600x600.jpg 600w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-100x100.jpg 100w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-75x75.jpg 75w" sizes="(max-width: 1200px) 100vw, 1200px"></a><a href="http://notacorda.like-themes.com/team/courtney-lee/">
-                        <h4>Courtney Lee</h4>
-                      </a>
-                      <p>Violin teacher</p>
-                      <div class="social">
-                        <ul>
-                          <li><a href="#"><span class="fa fa-google-plus"></span></a>
-                          </li>
-                          <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
-                          <li><a href="#"><span class="fa fa-facebook-f"></span></a>
-                          </li>
-                          <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                          <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                    <div class="team-item item matchHeight item-type-circle " style="visibility: visible; transform: translateY(0px) scale(1); opacity: 1; transition: all 0.3s ease 0s; height: 320px;" data-sr-id="27"><a href="http://notacorda.like-themes.com/team/michael-philips/" class="image"><img width="1200" height="1200" src="http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1.jpg" class="attachment-full size-full" alt="" srcset="http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1.jpg 1200w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-150x150.jpg 150w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-300x300.jpg 300w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-768x768.jpg 768w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-1024x1024.jpg 1024w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-600x600.jpg 600w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-100x100.jpg 100w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-75x75.jpg 75w" sizes="(max-width: 1200px) 100vw, 1200px"></a><a href="http://notacorda.like-themes.com/team/michael-philips/">
-                        <h4>Michael Philips</h4>
-                      </a>
-                      <p>Drums teacher</p>
-                      <div class="social">
-                        <ul>
-                          <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                          <li><a href="#"><span class="fa fa-facebook-f"></span></a>
-                          </li>
-                          <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                          <li><a href="#"><span class="fa fa-google-plus"></span></a>
-                          </li>
-                          <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                    <div class="team-item item matchHeight item-type-circle " style="visibility: visible; transform: translateY(0px) scale(1); opacity: 1; transition: all 0.3s ease 0s; height: 320px;" data-sr-id="28"><a href="http://notacorda.like-themes.com/team/francis-habbant/" class="image"><img width="1200" height="1200" src="http://notacorda.like-themes.com/wp-content/uploads/2017/10/w1.jpg" class="attachment-full size-full" alt="" srcset="http://notacorda.like-themes.com/wp-content/uploads/2017/10/w1.jpg 1200w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w1-150x150.jpg 150w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w1-300x300.jpg 300w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w1-768x768.jpg 768w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w1-1024x1024.jpg 1024w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w1-600x600.jpg 600w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w1-100x100.jpg 100w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w1-75x75.jpg 75w" sizes="(max-width: 1200px) 100vw, 1200px"></a><a href="http://notacorda.like-themes.com/team/francis-habbant/">
-                        <h4>Francis Habbant</h4>
-                      </a>
-                      <p>Guitar teacher</p>
-                      <div class="social">
-                        <ul>
-                          <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                          <li><a href="#"><span class="fa fa-facebook-f"></span></a>
-                          </li>
-                          <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                          <li><a href="#"><span class="fa fa-google-plus"></span></a>
-                          </li>
-                          <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                    <div class="team-item item matchHeight item-type-circle " style="visibility: visible; transform: translateY(0px) scale(1); opacity: 1; transition: all 0.3s ease 0s; height: 320px;" data-sr-id="29"><a href="http://notacorda.like-themes.com/team/marta-ferrari/" class="image"><img width="1200" height="1200" src="http://notacorda.like-themes.com/wp-content/uploads/2017/10/w2.jpg" class="attachment-full size-full" alt="" srcset="http://notacorda.like-themes.com/wp-content/uploads/2017/10/w2.jpg 1200w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w2-150x150.jpg 150w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w2-300x300.jpg 300w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w2-768x768.jpg 768w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w2-1024x1024.jpg 1024w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w2-600x600.jpg 600w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w2-100x100.jpg 100w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w2-75x75.jpg 75w" sizes="(max-width: 1200px) 100vw, 1200px"></a><a href="http://notacorda.like-themes.com/team/marta-ferrari/">
-                        <h4>Marta Ferrari</h4>
-                      </a>
-                      <p>Vocal teacher</p>
-                      <div class="social">
-                        <ul>
-                          <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                          <li><a href="#"><span class="fa fa-facebook-f"></span></a>
-                          </li>
-                          <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="btn-wrap align-center mb-5"><a href="" class="btn btn-primary transform-default color-text-white color-hover-second align-center   vc_custom_1507758207859" id="like_sc_button_1951161547">VIEW ALL</a></div>
-                <!-- <div class="es-resp">
-                  <div class="hidden-sm hidden-ms hidden-xs" style="height: 80px;">
-                  </div>
-                  <div class="hidden-xl hidden-lg hidden-md hidden-xs" style="height: 80px;"></div>
-                  <div class="visible-xs" style="height: 40px;"></div>
-                </div> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-    </div>
-
-
     <!--Streak-->
     <div class="streak streak-photo streak-md" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Things/full%20page/img%20%287%29.jpg');">
       <div class="flex-center mask rgba-indigo-strong">
@@ -671,7 +552,6 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
       </div>
     </div>
     <!--Streak-->
-
 
 
     <div class="container-fluid background-r">
