@@ -10,7 +10,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <title><?=$data["langData"]["pageTitle"]?></title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel='stylesheet' id='gdlr-core-google-font-css' href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CABeeZee%3Aregular%2Citalic&#038;subset=devanagari%2Clatin%2Clatin-ext&#038;ver=5.5.3' type='text/css' media='all' />
@@ -78,47 +78,41 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
           <!--Links-->
           <ul class="navbar-nav smooth-scroll">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-uppercase" href="#" data-target="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Về PHCM &amp; PAA</a>
+              <a class="nav-link dropdown-toggle text-uppercase" href="#" data-target="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?=$data["langData"]["about_phca"]?></a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Lời chào mừng từ Nhà Sáng Lập</a>
-                <a class="dropdown-item" href="#">Brochure</a>
+                <a class="dropdown-item" href="#"><?=$data["langData"]["greeting_from_founder"]?></a>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chương trình giáo dục</a>
+              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?=$data["langData"]["the_education_programmes"]?></a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Tổng quan</a>
-                <a class="dropdown-item" href="#">Chương trình âm nhạc</a>
-                <a class="dropdown-item" href="#">Chương trình vũ đạo</a>
+                <a class="dropdown-item" href="#"><?=$data["langData"]["summary_text"]?></a>
+                <a class="dropdown-item" href="#"><?=$data["langData"]["music_program"]?></a>
+                <a class="dropdown-item" href="#"><?=$data["langData"]["dancing_program"]?></a>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Học viện trực tuyến</a>
+              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <?=$data["langData"]["online_academy"]?></a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Tổng quan</a>
-                <a class="dropdown-item" href="#">Chương trình âm nhạc Online</a>
-                <a class="dropdown-item" href="#">Chương trình vũ đạo Online</a>
+                <a class="dropdown-item" href="#"><?=$data["langData"]["summary_text"]?></a>
+                <a class="dropdown-item" href="#"><?=$data["langData"]["online_music_program"]?></a>
+                <a class="dropdown-item" href="#"><?=$data["langData"]["online_dancing_program"]?></a>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hoạt động tại trường</a>
+              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <?=$data["langData"]["contact_text"]?></a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Hoạt động cộng đồng</a>
-                <a class="dropdown-item" href="#">Chương trình ngoại khóa</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Liên hệ</a>
-              <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Liên hệ hợp tác</a>
-                <a class="dropdown-item" href="#">Liên hệ học tập</a>
+                <a class="dropdown-item" href="#"><?=$data["langData"]["coporation_contact_text"]?></a>
+                <a class="dropdown-item" href="#"><?=$data["langData"]["study_contact_text"]?></a>
               </div>
             </li>
             <li class="nav-item">
-              <a href="#vi" class="nav-link"><img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/flags/vi.png"></a>
+              <a href="?lang=vi" class="nav-link"><img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/flags/vi.png"></a>
             </li>
             <li class="nav-item">
-              <a href="#en" class="nav-link"><img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/flags/en.png"></a>
+              <a href="?lang=en" class="nav-link"><img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/flags/en.png"></a>
             </li>
           </ul>
 
@@ -152,12 +146,14 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
           <div class="row smooth-scroll">
             <div class="col-md-12 white-text text-center">
               <div class="wow fadeInDown" data-wow-delay="0.2s">
-                <h2 class="display-3 font-weight-bold mb-2">PHC Music & Performing Arts Academy</h2>
+                <h2 class="display-3 font-weight-bold mb-2"><?=$data["langData"]["pageTitle"]?></h2>
                 <hr class="hr-light">
-                <h3 class="subtext-header mt-4 mb-5">Lời giới thiệu ...</h3>
+                <h3 class="subtext-header mt-4 mb-5">
+                  <?=$data["langData"]["intro_in_banner_text"]?>
+                </h3>
               </div>
-              <a href="#events" data-offset="100" class="btn btn-info wow fadeInLeft" data-wow-delay="0.2s">Sự kiện</a>
-              <a href="#top-courses" data-offset="100" class="btn btn-warning wow fadeInRight" data-wow-delay="0.2s">Các chương trình đào tạo</a>
+              <a href="#our-teachers" data-offset="100" class="btn btn-info wow fadeInLeft" data-wow-delay="0.2s"><?=$data["langData"]["our_teachers_text"]?></a>
+              <a href="#top-courses" data-offset="100" class="btn btn-warning wow fadeInRight" data-wow-delay="0.2s"><?=$data["langData"]["our_courses_text"]?></a>
 
             </div>
           </div>
@@ -176,7 +172,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
       <section id="about" class="mt-4 mb-2">
 
         <!--Secion heading-->
-        <h2 class="text-center my-5 font-weight-bold wow fadeIn" data-wow-delay="0.2s">Giới thiệu PHC Music & Performing Arts Academy</h2>
+        <h2 class="text-center my-5 font-weight-bold wow fadeIn" data-wow-delay="0.2s"><?=$data["langData"]["introducing_header"]?></h2>
 
         <!--First row-->
         <div class="row">
@@ -194,17 +190,9 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
           <div class="col-lg-6 dark-grey-text ml-lg-auto col-md-12 wow fadeIn" data-wow-delay="0.4s">
 
             <!--Description-->
-            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione
-              quisquam, dicta
-              ab cupiditate iure eaque? Repellendus voluptatum, magni impedit eaque animi maxime.
-            </p>
+            <p align="justify"><?=$data["langData"]["introducing_line_1"]?></p>
 
-            <p align="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores error fugiat porro omnis sequi, voluptatibus officia voluptatum! Aspernatur officiis obcaecati accusamus eius ullam officia, dolore labore, vitae veniam quasi temporibus.</p>
-
-            <ul>
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
-              <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-            </ul>
+            <p align="justify"><?=$data["langData"]["introducing_line_2"]?></p>
 
           </div>
           <!--Second column-->
@@ -542,7 +530,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
     </div>
 
     <hr>
-    <div class="container-fluid">
+    <div class="container-fluid" id="our-teachers">
       <section class="container">
         <div class="row">
           <div class="col-sm-12 vc_column_container">
@@ -574,9 +562,9 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
                 <div class="team-sc row">
                   <div class="col-md-3 col-sm-6">
                     <div class="team-item item matchHeight item-type-circle " style="visibility: visible; transform: translateY(0px) scale(1); opacity: 1; transition: all 0.3s ease 0s; height: 320px;" data-sr-id="26"><a href="#" class="image"><img width="1200" height="1200" src="<?= $_GLOBAL["publicURL"]; ?>/public/images/teachers/ly_huynh_long.jpg" class="attachment-full size-full" alt="" srcset="<?= $_GLOBAL["publicURL"]; ?>/public/images/teachers/ly_huynh_long.jpg 1200w, <?= $_GLOBAL["publicURL"]; ?>/public/images/teachers/ly_huynh_long.jpg 150w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-300x300.jpg 300w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-768x768.jpg 768w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-1024x1024.jpg 1024w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-600x600.jpg 600w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-100x100.jpg 100w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-75x75.jpg 75w" sizes="(max-width: 1200px) 100vw, 1200px"></a><a href="http://notacorda.like-themes.com/team/courtney-lee/">
-                        <h4>Courtney Lee</h4>
+                        <h4><?=$data["langData"]["ly_huynh_long"]?></h4>
                       </a>
-                      <p>Violin teacher</p>
+                      <p><?=$data["langData"]["piano_department"]?></p>
                       <div class="social">
                         <ul>
                           <li><a href="#"><span class="fa fa-google-plus"></span></a>

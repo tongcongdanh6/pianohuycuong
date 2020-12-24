@@ -6,8 +6,13 @@
             // Model
             $teo = $this->model("SinhVienModel");
 
+            $this->setLanguage();
+
+            // Require ngôn ngữ
+            require_once("./mvc/views/languages/lang.".$_SESSION["lang"].".php");
+
             $this->view("layout_2", [
-                "pageTitle" => "PHC Music & Performing Arts Academy"
+                "langData" => $lang
                 ]);
             // View
         }

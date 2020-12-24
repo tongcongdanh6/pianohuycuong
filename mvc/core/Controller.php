@@ -11,5 +11,27 @@ class Controller {
         require_once "./mvc/views/".$view.".php";
 
     }
+
+    public function setLanguage() {
+        if(!isset($_SESSION["lang"]))
+        {
+            $_SESSION["lang"]="vi";
+        }
+        else {
+            if(isset($_GET["lang"])) {
+                // Allow vi & en
+                switch ($_GET["lang"]) {
+                    case 'vi':
+                    case 'en':
+                        $_SESSION["lang"] = $_GET["lang"];
+                        break;
+                    
+                    default:
+                    $_SESSION["lang"] = "vi";
+                        break;
+                }
+            }
+        }
+    }
 }
 ?>
