@@ -152,8 +152,8 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
                   <?=$data["langData"]["intro_in_banner_text"]?>
                 </h3>
               </div>
-              <a href="#our-teachers" data-offset="100" class="btn btn-info wow fadeInLeft" data-wow-delay="0.2s"><?=$data["langData"]["our_teachers_text"]?></a>
-              <a href="#top-courses" data-offset="100" class="btn btn-warning wow fadeInRight" data-wow-delay="0.2s"><?=$data["langData"]["our_courses_text"]?></a>
+              <a href="#our-teachers" data-offset="100" class="btn btn-info wow fadeInLeft" data-wow-delay="0.2s"><?=$data["langData"]["our_teachers_btn_text"]?></a>
+              <a href="#top-courses" data-offset="100" class="btn btn-warning wow fadeInRight" data-wow-delay="0.2s"><?=$data["langData"]["our_courses_btn_text"]?></a>
 
             </div>
           </div>
@@ -191,8 +191,10 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
 
             <!--Description-->
             <p align="justify"><?=$data["langData"]["introducing_line_1"]?></p>
-
             <p align="justify"><?=$data["langData"]["introducing_line_2"]?></p>
+            <p align="justify"><?=$data["langData"]["introducing_line_3"]?></p>
+            <p align="justify"><?=$data["langData"]["introducing_line_4"]?></p>
+            <p align="justify"><?=$data["langData"]["introducing_line_5"]?></p>
 
           </div>
           <!--Second column-->
@@ -202,335 +204,10 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
 
       </section>
       <!--Section: About-->
-
-
-
-
-      <hr>
-
-      <!--Projects section v.3-->
-      <section id="info" class="mt-4 mb-5 pb-4">
-
-        <!--Section heading-->
-        <h2 class="text-center mb-5 font-weight-bold pt-5 pb-4 my-5 wow fadeIn" data-wow-delay="0.2s">Giảng viên / Khóa học</h2>
-        <!--Section description-->
-        <p class="text-center w-responsive mx-auto my-5 grey-text wow fadeIn" data-wow-delay="0.2s">Duis aute irure
-          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <!--First row-->
-        <div class="row wow fadeIn" data-wow-delay="0.4s">
-
-          <!--First column-->
-          <div class="col-md-12">
-
-            <div class="mb-2">
-
-              <!--Nav tabs-->
-              <ul class="nav md-pills pills-primary d-flex justify-content-center" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active" data-toggle="tab" href="#panel32" role="tab">
-                    <i class="fas fa-users fa-2x"></i>
-                    <br> Giảng viên</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#panel31" role="tab">
-                    <i class="fas fa-graduation-cap fa-2x"></i>
-                    <br> Khóa học</a>
-                </li>
-
-              </ul>
-
-            </div>
-
-            <!--Tab panels-->
-            <div class="tab-content">
-
-              <!--Panel 1-->
-              <div class="tab-pane fade" id="panel31" role="tabpanel">
-
-                <!--First row-->
-                <div class="row mb-5 pb-3">
-
-                  <!--Grid column-->
-                  <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
-
-                    <!--Card Light-->
-                    <div class="card h-100">
-                      <!--Card image-->
-                      <div class="view overlay">
-                        <img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/courses/piano1.jpg" class="card-img-top" alt="">
-                        <a>
-                          <div class="mask rgba-white-slight"></div>
-                        </a>
-                      </div>
-                      <!--/.Card image-->
-                      <!--Card content-->
-                      <div class="card-body">
-
-                        <!--Title-->
-                        <h4 class="card-title darkgrey-text">
-                          <strong>Học trực tuyến</strong>
-                        </h4>
-                        <hr>
-                        <!--Text-->
-                        <p class="font-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ex.
-                        </p>
-                        <a href="#" class="black-text d-flex flex-row-reverse">
-                          <p class="waves-effect p-2 font-small blue-text mb-0">Xem thêm
-                            <i class="fas fa-long-arrow-alt-right ml-2" aria-hidden="true"></i>
-                          </p>
-                        </a>
-                      </div>
-                      <!--/.Card content-->
-                    </div>
-                    <!--/.Card Light-->
-
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
-
-                    <!--Card Light-->
-                    <div class="card h-100">
-                      <!--Card image-->
-                      <div class="view overlay">
-                        <img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/courses/vocal1.jpg" class="card-img-top" alt="">
-                        <a>
-                          <div class="mask rgba-white-slight"></div>
-                        </a>
-                      </div>
-                      <!--/.Card image-->
-                      <!--Card content-->
-                      <div class="card-body">
-
-                        <!--Title-->
-                        <h4 class="card-title darkgrey-text">
-                          <strong>Học tại PHCM & PAA</strong>
-                        </h4>
-                        <hr>
-                        <!--Text-->
-                        <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, sed eligendi.
-                        </p>
-                        <a href="#" class="black-text d-flex flex-row-reverse">
-                          <p class="waves-effect p-2 font-small blue-text mb-0">Xem thêm
-                            <i class="fas fa-long-arrow-alt-right ml-2" aria-hidden="true"></i>
-                          </p>
-                        </a>
-                      </div>
-                      <!--/.Card content-->
-                    </div>
-                    <!--/.Card Light-->
-
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
-
-                    <!--Card Light-->
-                    <div class="card h-100">
-                      <!--Card image-->
-                      <div class="view overlay">
-                        <img src="<?= $_GLOBAL["publicURL"]; ?>/public/images/courses/guitar1.jpg" class="card-img-top" alt="">
-                        <a>
-                          <div class="mask rgba-white-slight"></div>
-                        </a>
-                      </div>
-                      <!--/.Card image-->
-
-                      <!--Card content-->
-                      <div class="card-body">
-
-                        <!--Title-->
-                        <h4 class="card-title darkgrey-text">
-                          <strong>Đặc biệt</strong>
-                        </h4>
-                        <hr>
-                        <!--Text-->
-                        <p class="font-small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel rem dignissimos ad!
-                        </p>
-                        <a href="#" class="black-text d-flex flex-row-reverse">
-                          <p class="waves-effect p-2 font-small blue-text mb-0">Xem thêm
-                            <i class="fas fa-long-arrow-alt-right ml-2" aria-hidden="true"></i>
-                          </p>
-                        </a>
-                      </div>
-                      <!--/.Card content-->
-                    </div>
-                    <!--/.Card Light-->
-
-                  </div>
-                  <!--Grid column-->
-                  <!--Grid column-->
-
-                </div>
-
-                <div class="row">
-                  <div class="col">
-                    <nav>
-                      <ul class="pagination pg-dark justify-content-center">
-                        <li class="page-item">
-                          <a class="page-link" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                        </li>
-                        <li class="page-item active"><a class="page-link">1</a></li>
-                        <li class="page-item"><a class="page-link">2</a></li>
-                        <li class="page-item"><a class="page-link">3</a></li>
-                        <li class="page-item"><a class="page-link">4</a></li>
-                        <li class="page-item"><a class="page-link">5</a></li>
-                        <li class="page-item">
-                          <a class="page-link" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
-                <!--First row-->
-
-              </div>
-              <!--Panel 1-->
-
-              <!--Panel 2-->
-              <div class="tab-pane fade in show active" id="panel32" role="tabpanel">
-                <br>
-
-                <!--First row-->
-                <div class="row">
-
-                  <!--First column-->
-                  <div class="col-lg-5 col-md-12">
-
-                    <!--Featured image-->
-                    <div class="view overlay z-depth-1 mb-2">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2840%29.jpg" class="rounded img-fluid" alt="sample image">
-                    </div>
-                  </div>
-                  <!--First column-->
-
-                  <!--Second column-->
-                  <div class="col-lg-6 ml-lg-auto col-md-12 text-center text-md-left">
-
-                    <!--Title-->
-                    <h4 class="mb-5">Information for Candidates</h4>
-
-                    <!--Description-->
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta
-                      ratione
-                      quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit
-                      eaque delectus, beatae maxime temporibus maiores quibusdam quasi.Rem magnam ad
-                      perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut
-                      possimus in hic molestias repellendus illo ullam odit quia velit.</p>
-
-                  </div>
-                  <!--Second column-->
-                </div>
-                <!--First row-->
-
-              </div>
-              <!--Panel 2-->
-
-              <!--Panel 3-->
-              <div class="tab-pane fade" id="panel33" role="tabpanel">
-                <br>
-
-                <!--First row-->
-                <div class="row">
-
-                  <!--First column-->
-                  <div class="col-lg-5 col-md-12">
-
-                    <!--Featured image-->
-                    <div class="view overlay z-depth-1 mb-2">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2841%29.jpg" class="rounded img-fluid" alt="sample image">
-                    </div>
-                  </div>
-                  <!--First column-->
-
-                  <!--Second column-->
-                  <div class="col-lg-6 ml-lg-auto col-md-12 text-center text-md-left">
-
-                    <!--Title-->
-                    <h4 class="mb-5">Financial Aid</h4>
-
-                    <!--Description-->
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta
-                      ratione
-                      quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit
-                      eaque delectus, beatae maxime temporibus maiores quibusdam quasi.Rem magnam ad
-                      perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut
-                      possimus in hic molestias repellendus illo ullam odit quia velit.</p>
-
-                  </div>
-                  <!--Second column-->
-                </div>
-                <!--First row-->
-
-              </div>
-              <!--Panel 3-->
-
-              <!--Panel 4-->
-              <div class="tab-pane fade" id="panel34" role="tabpanel">
-                <br>
-
-                <!--First row-->
-                <div class="row">
-
-                  <!--First column-->
-                  <div class="col-lg-5 col-md-12">
-
-                    <!--Featured image-->
-                    <div class="view overlay z-depth-1 mb-2">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2842%29.jpg" class="rounded img-fluid" alt="sample image">
-                    </div>
-                  </div>
-                  <!--First column-->
-
-                  <!--Second column-->
-                  <div class="col-lg-6 ml-lg-auto col-md-12 text-center text-md-left">
-
-                    <!--Title-->
-                    <h4 class="mb-5">Residential Life</h4>
-
-                    <!--Description-->
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta
-                      ratione
-                      quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit
-                      eaque delectus, beatae maxime temporibus maiores quibusdam quasi.Rem magnam ad
-                      perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut
-                      possimus in hic molestias repellendus illo ullam odit quia velit.</p>
-
-                  </div>
-                  <!--Second column-->
-                </div>
-                <!--First row-->
-
-              </div>
-              <!--Panel 4-->
-
-            </div>
-            <!--Tab panels-->
-
-          </div>
-          <!--First column-->
-
-        </div>
-        <!--First row-->
-
-      </section>
-      <!--Projects section v.3-->
-
     </div>
 
-    <hr>
-    <div class="container-fluid" id="our-teachers">
+    <section class="container-fluid" id="our-teachers" style="
+    background: linear-gradient(45deg, rgba(29, 236, 197, 0.5),rgba(91, 14, 214, 0.5) 100%);">
       <section class="container">
         <div class="row">
           <div class="col-sm-12 vc_column_container">
@@ -543,13 +220,13 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
                   <div class="visible-xs" style="height: 0px;"></div>
                 </div>
                 <div class="heading  head-subheader align-center color-black subcolor-second transform-default" id="like_sc_header_1052999607">
-                  <h2 class="header" style="font-family: Roboto, sans-serif;">Giảng viên kinh nghiệm của chúng tôi</h2>
+                  <h2 class="header" style="font-family: Roboto, sans-serif;"><?=$data["langData"]["our_experienced_teachers"]?></h2>
                 </div>
                 <div class="mb-5">
                   <div class="wpb_wrapper">
-                    <p style="text-align: center;"><span class="text-md">Pellentesque mattis mauris ac tortor
-                        volutpat, eu fermentum sapien euismod. In id tempus<br>
-                        metus. Donec eu volutpat nibh, in maximus ligula.</span>
+                    <p style="text-align: center;"><span class="text-md">
+                    <?=$data["langData"]["content_experienced_teachers"]?>
+                    </span>
                     </p>
                   </div>
                 </div>
@@ -562,9 +239,9 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
                 <div class="team-sc row">
                   <div class="col-md-3 col-sm-6">
                     <div class="team-item item matchHeight item-type-circle " style="visibility: visible; transform: translateY(0px) scale(1); opacity: 1; transition: all 0.3s ease 0s; height: 320px;" data-sr-id="26"><a href="#" class="image"><img width="1200" height="1200" src="<?= $_GLOBAL["publicURL"]; ?>/public/images/teachers/ly_huynh_long.jpg" class="attachment-full size-full" alt="" srcset="<?= $_GLOBAL["publicURL"]; ?>/public/images/teachers/ly_huynh_long.jpg 1200w, <?= $_GLOBAL["publicURL"]; ?>/public/images/teachers/ly_huynh_long.jpg 150w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-300x300.jpg 300w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-768x768.jpg 768w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-1024x1024.jpg 1024w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-600x600.jpg 600w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-100x100.jpg 100w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/w3-75x75.jpg 75w" sizes="(max-width: 1200px) 100vw, 1200px"></a><a href="http://notacorda.like-themes.com/team/courtney-lee/">
-                        <h4><?=$data["langData"]["ly_huynh_long"]?></h4>
+                        <h4><?=$data["langData"]["teachers"][0][0]?></h4>
                       </a>
-                      <p><?=$data["langData"]["piano_department"]?></p>
+                      <p><?=$data["langData"]["department"][$data["langData"]["teachers"][0][1]]?></p>
                       <div class="social">
                         <ul>
                           <li><a href="#"><span class="fa fa-google-plus"></span></a>
@@ -579,10 +256,10 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
-                    <div class="team-item item matchHeight item-type-circle " style="visibility: visible; transform: translateY(0px) scale(1); opacity: 1; transition: all 0.3s ease 0s; height: 320px;" data-sr-id="27"><a href="http://notacorda.like-themes.com/team/michael-philips/" class="image"><img width="1200" height="1200" src="http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1.jpg" class="attachment-full size-full" alt="" srcset="http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1.jpg 1200w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-150x150.jpg 150w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-300x300.jpg 300w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-768x768.jpg 768w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-1024x1024.jpg 1024w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-600x600.jpg 600w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-100x100.jpg 100w, http://notacorda.like-themes.com/wp-content/uploads/2017/10/m1-75x75.jpg 75w" sizes="(max-width: 1200px) 100vw, 1200px"></a><a href="http://notacorda.like-themes.com/team/michael-philips/">
-                        <h4>Michael Philips</h4>
+                    <div class="team-item item matchHeight item-type-circle " style="visibility: visible; transform: translateY(0px) scale(1); opacity: 1; transition: all 0.3s ease 0s; height: 320px;" data-sr-id="27"><a href="#" class="image"><img width="1200" height="1200" src="<?=$_GLOBAL['publicURL']?>/public/images/teachers/huy_cuong.jpg" class="attachment-full size-full" alt="" srcset="<?=$_GLOBAL['publicURL']?>/public/images/teachers/huy_cuong.jpg 1200w, <?=$_GLOBAL['publicURL']?>/public/images/teachers/huy_cuong.jpg 150w, <?=$_GLOBAL['publicURL']?>/public/images/teachers/huy_cuong.jpg 300w, <?=$_GLOBAL['publicURL']?>/public/images/teachers/huy_cuong.jpg 768w, <?=$_GLOBAL['publicURL']?>/public/images/teachers/huy_cuong.jpg 1024w, <?=$_GLOBAL['publicURL']?>/public/images/teachers/huy_cuong.jpg 600w, <?=$_GLOBAL['publicURL']?>/public/images/teachers/huy_cuong.jpg 100w, <?=$_GLOBAL['publicURL']?>/public/images/teachers/huy_cuong.jpg 75w" sizes="(max-width: 1200px) 100vw, 1200px"></a><a href="#">
+                        <h4><?=$data["langData"]["teachers"][1][0]?></h4>
                       </a>
-                      <p>Drums teacher</p>
+                      <p><?=$data["langData"]["department"][$data["langData"]["teachers"][1][1]]?></p>
                       <div class="social">
                         <ul>
                           <li><a href="#"><span class="fa fa-twitter"></span></a></li>
@@ -630,7 +307,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
                     </div>
                   </div>
                 </div>
-                <div class="btn-wrap align-center mb-5"><a href="" class="btn btn-primary transform-default color-text-white color-hover-second align-center   vc_custom_1507758207859" id="like_sc_button_1951161547">VIEW ALL</a></div>
+                <div class="btn-wrap align-center mb-5"><a href="" class="btn btn-primary transform-default color-text-white color-hover-second align-center text-uppercase vc_custom_1507758207859" id="like_sc_button_1951161547"><?=$data["langData"]["viewall_btn_text"]?></a></div>
                 <!-- <div class="es-resp">
                   <div class="hidden-sm hidden-ms hidden-xs" style="height: 80px;">
                   </div>
@@ -643,45 +320,28 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
         </div>
       </section>
 
-    </div>
-
-
-    <!--Streak-->
-    <div class="streak streak-photo streak-md" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Things/full%20page/img%20%287%29.jpg');">
-      <div class="flex-center mask rgba-indigo-strong">
-        <div class="text-center white-text">
-          <h2 class="h2-responsive mb-5">
-            <i class="fas fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, non tempora. Accusamus?
-            <i class="fas fa-quote-right" aria-hidden="true"></i>
-          </h2>
-          <h5 class="text-center font-italic " data-wow-delay="0.2s">~ Author</h5>
-        </div>
-      </div>
-    </div>
-    <!--Streak-->
-
-
+    </section>
 
     <div class="container-fluid background-r">
       <div class="container py-3">
 
         <!--Section: Blog v.2-->
         <section class="extra-margins text-center" id="top-courses">
-          <h2 class="text-center mb-5 my-5 pt-4 pb-4 font-weight-bold"> Chương trình giảng dạy</h2>
+          <h2 class="text-center mb-5 my-5 pt-4 pb-4 font-weight-bold"><?=$data["langData"]["education_programs_section_header"]?></h2>
 
           <!--Grid row-->
           <div class="row mb-5 pb-3">
 
             <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+            <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.2s">
 
               <!--Card Light-->
               <div class="card h-100">
                 <!--Card image-->
                 <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Others/images/51.jpg" class="card-img-top" alt="">
+                  <img src="<?=$_GLOBAL['publicURL']?>/public/images/courses/online-program.jpg" class="card-img-top" alt="">
                   <a>
-                    <div class="mask rgba-white-slight"></div>
+                    <div class="mask mask-gradient-blue"></div>
                   </a>
                 </div>
                 <!--/.Card image-->
@@ -710,15 +370,15 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+            <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.2s">
 
               <!--Card Light-->
               <div class="card h-100">
                 <!--Card image-->
                 <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Others/images/40.jpg" class="card-img-top" alt="">
+                  <img src="<?=$_GLOBAL['publicURL']?>/public/images/courses/piano1.jpg" class="card-img-top" alt="">
                   <a>
-                    <div class="mask rgba-white-slight"></div>
+                    <div class="mask mask-gradient-blue"></div>
                   </a>
                 </div>
                 <!--/.Card image-->
@@ -727,7 +387,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
 
                   <!--Title-->
                   <h4 class="card-title darkgrey-text">
-                    <strong>Học tại PHCM & PAA</strong>
+                    <strong>Học tại PHCA</strong>
                   </h4>
                   <hr>
                   <!--Text-->
@@ -747,15 +407,15 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+            <div class="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.2s">
 
               <!--Card Light-->
               <div class="card h-100">
                 <!--Card image-->
                 <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Others/images/56.jpg" class="card-img-top" alt="">
+                  <img src="<?=$_GLOBAL['publicURL']?>/public/images/courses/guitar1.jpg" class="card-img-top" alt="">
                   <a>
-                    <div class="mask rgba-white-slight"></div>
+                    <div class="mask mask-gradient-blue"></div>
                   </a>
                 </div>
                 <!--/.Card image-->
@@ -799,7 +459,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
       <section id="testimonials" class="mb-5">
 
         <!--Section heading-->
-        <h2 class="text-center mb-5 my-5 pt-5 pb-4 font-weight-bold wow fadeIn" data-wow-delay="0.2s">Học viên nói gì về chúng tôi?</h2>
+        <h2 class="text-center mb-5 my-5 pt-5 pb-4 font-weight-bold wow fadeIn" data-wow-delay="0.2s">Mọi người nói gì về chúng tôi?</h2>
 
         <div class="row">
 
@@ -1214,34 +874,16 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
           <!--Third column-->
           <div class="col-xl-3 ml-lg-auto col-lg-4 col-md-6 mt-1 mb-1">
             <!--Contact-->
-            <h5 class="text-uppercase mb-3 font-weight-bold">Bài viết mới</h5>
+            <h5 class="text-uppercase mb-3 font-weight-bold">Thông tin truy cập</h5>
 
-            <ul class="footer-posts list-unstyled">
-              <li>
-                <a>Lorem ipsum dolor sit amet.</a>
-                <span>
-                  <p class="grey-text">28 july 2016</p>
-                </span>
-              </li>
-              <li>
-                <a>Lorem ipsum dolor sit amet.</a>
-                <span>
-                  <p class="grey-text">27 july 2016</p>
-                </span>
-              </li>
-              <li>
-                <a>Lorem ipsum dolor sit amet consectetur.</a>
-                <span>
-                  <p class="grey-text">26 july 2016</p>
-                </span>
-              </li>
-              <li>
-                <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
-                <span>
-                  <p class="grey-text">25 july 2016</p>
-                </span>
-              </li>
-            </ul>
+            <div class="row">
+              <div class="col-12">
+                Tổng số lượng đã truy cập: <b>1,366,545</b>
+              </div>
+              <div class="col-12">
+                Đang online: <b><?php echo floor(random_int(53, 70))?></b>
+              </div>
+            </div>
 
           </div>
           <!--Third column-->
@@ -1257,7 +899,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
     <!--Copyright-->
     <div class="footer-copyright py-3 text-center">
       <div class="container-fluid">
-        Bản quyền © 2021 thuộc về: <a href="<?= $_GLOBAL["publicURL"] ?>" target="_blank"> PHC Music & Performing Arts Academy </a>
+        <?=$data["langData"]["copyright_text"]?> <a href="<?= $_GLOBAL["publicURL"] ?>" target="_blank"> <?=$data["langData"]["academy_name"]?> </a>
       </div>
     </div>
     <!--Copyright-->

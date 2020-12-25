@@ -261,3 +261,7 @@ h2::after {
         height: auto !important
     }
 }
+
+.mask-gradient-blue {
+    background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%) !important;
+}
