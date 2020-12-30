@@ -5,6 +5,13 @@
         'seemore_text' => 'See more',
         'subjects_text' => 'Subjects',
         'academy_name' => 'PHC Music & Performing Arts Academy',
+        'beginner_level_text' => 'Beginner Level',
+        'intermediate_level_text' => 'Intermediate Level',
+        'advanced_level_text' => 'Advanced Level',
+        'learning_objectives_text' => 'Learning Objectives',
+        'learning_outcomes_text' => 'Learning Outcomes',
+        
+        // ## CONSTANT text ##
 
         // Button Text
         'viewall_btn_text' => 'View all',
@@ -113,13 +120,38 @@
         'dancesport_class_text' => 'Dancesport',
         'creative_movers_class_text' => 'Creative Movers',
         'contemporary_dance_class_text' => 'Contemporary Dance',
-
-
-
-        
-
-
         // ## Programs at PHCA ##
+
+
+        // DRUM CLASS CONTENT
+        'drum_class_header_text' => 'Percussion',
+        'drum_class_content_text_1' => 'The PHCA drums & percussion curriculum offers students skills and musical sensibilities, building on the most natural instincts of the human rhyme-consciousness. The drums & percussion help learners to consolidate and develop a sense of how rhythms are organized in music. The required steady coordination of arms and legs helps students develop their physicality, build and mantain their concentration and ability to lead the music.',
+
+        'drum_class_content_text_2' => 'Exploring the different timbres of the drum set and basic techniques',
+        'drum_class_content_text_3' => 'Building arms and legs muscle control for appropriate force',
+        'drum_class_content_text_4' => 'Learn music theory through the lens of the drums, with close attention to rhythms',
+        'drum_class_content_text_5' => 'Performance skills for drummers',
+        'drum_class_content_text_6' => 'Build confidence and connectivity through performing activities',
+        //beginner
+        'drum_class_content_text_7' => 'Understand the basic sounds of a standard drumset',
+        'drum_class_content_text_8' => 'Appropriate strength control for sound production',
+        'drum_class_content_text_9' => 'Basic control of simple rhythm at moderate paces',
+        'drum_class_content_text_10' => 'Basic understanding and execution of a few modern music styles',
+        //Intermediate 
+        'drum_class_content_text_11' => 'Acquire all knowledge and skills of Beginner level',
+        'drum_class_content_text_12' => 'Achieve control over more complex rhythms, grooves and tempi',
+        'drum_class_content_text_13' => 'Achieve better contrasts in dynamics and timbres',
+        'drum_class_content_text_14' => 'Start to develop basic understanding and use of the extended percussion family',
+        // Advanced
+        'drum_class_content_text_15' => 'Acquire all knowledge and skills of Intermadiate level',
+        'drum_class_content_text_16' => 'Able to perform different grooves/styles of music',
+        'drum_class_content_text_17' => 'Able to manage complex rhythms with changing meters',
+        'drum_class_content_text_18' => 'Able to actively lead the musical grooves of many ensembles',
+        'drum_class_content_text_19' => 'Further utilize the extended percussion family',
+        'drum_class_content_text_20' => 'Acquire international qualification (Trinity)',
+        // ## DRUM CLASS CONTENT ##
+
+
 
         // FOOTER
         'copyright_text' => 'Copyright © 2021 by:'

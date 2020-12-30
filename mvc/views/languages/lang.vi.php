@@ -5,6 +5,11 @@
         'seemore_text' => 'Xem thêm',
         'subjects_text' => 'Các bộ môn',
         'academy_name' => 'Học viện Âm nhạc & Biểu diễn PHC',
+        'beginner_level_text' => 'Trình độ Sơ cấp',
+        'intermediate_level_text' => 'Trình độ Trung cấp',
+        'advanced_level_text' => 'Trình độ Cao cấp',
+        'learning_objectives_text' => 'Mục tiêu môn học',
+        'learning_outcomes_text' => 'Năng lực đầu ra',
 
         // Button Text
         'viewall_btn_text' => 'Xem tất cả',
@@ -113,9 +118,40 @@
         'dancesport_class_text' => 'Dancesport',
         'creative_movers_class_text' => 'Creative Movers',
         'contemporary_dance_class_text' => 'Múa đương đại',
-
-
         // ## Programs at PHCA ##
+
+
+        // DRUM CLASS CONTENT
+
+        'drum_class_header_text' => 'Trống và Bộ gõ',
+        'drum_class_content_text_1' => 'Bộ môn Trống và Bộ Gõ tại PHCA mang đến cho học viên những kỹ năng và cảm nhận âm nhạc dựa trên bản năng tự nhiên nhất của con người về ý thức nhịp phách, vần điệu. Bộ môn Trống và Bộ Gõ giúp học viên xây dựng và phát triển những ý thức tổ chức sắp xếp nhịp điệu trong âm nhạc. Sự phối hợp tay chân theo nhịp điệu ổn định trong bộ môn trống giúp học viên phát triển về thể chất, xây dựng và duy trì tính tập trung, khả năng dẫn dắt trong âm nhạc.',
+
+        'drum_class_content_text_2' => 'Khả năng kiểm soát âm sắc của bộ trống',
+        'drum_class_content_text_3' => 'Khả năng phối hợp và điều phối lực trong việc tạo âm thanh giữa các trống',
+        'drum_class_content_text_4' => 'Khả năng thị tấu',
+        'drum_class_content_text_5' => 'Kỹ năng biểu diễn',
+        'drum_class_content_text_6' => 'Tính ổn định và kết nối trong ban nhạc',
+        //beginner
+        'drum_class_content_text_7' => 'Kiến thức về âm sắc của bộ trống cơ bản',
+        'drum_class_content_text_8' => 'Khả năng kiểm soát lực phù hợp của tay – chân',
+        'drum_class_content_text_9' => 'Khả năng kiểm soát tiết tấu và tốc độ cơ bản',
+        'drum_class_content_text_10' => 'Kiến thức và thực hành cơ bản về một số màu sắc của âm nhạc hiện đại',
+        //Intermediate 
+        'drum_class_content_text_11' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ sơ cấp',
+        'drum_class_content_text_12' => 'Kỹ năng duy trì và điều phối tiết tấu, mạch âm nhạc và tốc độ đa dạng',
+        'drum_class_content_text_13' => 'Kỹ năng điều phối sự tương phản sắc thái và âm sắc phong phú',
+        'drum_class_content_text_14' => 'Kiến thức và thực hành cơ bản với bộ gõ',
+        // Advanced
+        'drum_class_content_text_15' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ Trung cấp',
+        'drum_class_content_text_16' => 'Thực hành và biểu diễn nhiều thể loại âm nhạc khác nhau',
+        'drum_class_content_text_17' => 'Có được sự kiểm soát tiết tấu trong những mạch nhịp điệu phức tạp, cấu trúc đa dạng',
+        'drum_class_content_text_18' => 'Thể hiện sự chủ động, bản lĩnh của sự dẫn dắt biểu diễn trong ban nhạc',
+        'drum_class_content_text_19' => 'Nâng cao kỹ năng sử dụng bộ gõ',
+        'drum_class_content_text_20' => 'Kết quả học tập được công nhận bằng chứng chỉ quốc tế (Trinity)',
+        
+
+
+        // ## DRUM CLASS CONTENT ##
 
 
         // FOOTER
