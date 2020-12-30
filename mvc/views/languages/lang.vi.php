@@ -2,6 +2,8 @@
     $lang = [
         // CONSTANT text
         'overview_text' => 'Tổng quan',
+        'seemore_text' => 'Xem thêm',
+        'subjects_text' => 'Các bộ môn',
         'academy_name' => 'Học viện Âm nhạc & Biểu diễn PHC',
 
         // Button Text
@@ -79,6 +81,23 @@
 
         'kindermusik_header_text' => 'Kindermusik',
         'kindermusik_content_text' => 'Kindermusik là chương trình giáo dục âm nhạc hàng đầu thế giới dành cho trẻ từ 4 tháng đến 5 tuổi. Kindermusik sử dụng sức mạnh của sự giao tiếp âm nhạc giúp trẻ phát triển trí não trong những năm quan trọng đầu đời. Từ năm 1978 đến nay, Kindermusik đã đồng hành cùng hàng triệu trẻ em khắp thế giới xây dựng nền tảng học thuật trong tương lai. Chương trình Kindermusik tại SMPAA được giảng dạy bởi các giáo viên được đào tạo và chứng nhận bởi Kindermusik International.',
+
+        'music_programmes_header_text' => 'Các chương trình âm nhạc',
+        'music_programmes_content_text_1' => 'Chương trình giáo dục Âm nhạc tại PHCA chú trọng vào 4 yếu tố:',
+        'music_programmes_content_text_2' => 'Xây dựng nền tảng vững chắc về kiến thức và kỹ năng.',
+        'music_programmes_content_text_3' => 'Ứng dụng kiến thức và kỹ năng được học với những thể loại âm nhạc khác nhau.',
+        'music_programmes_content_text_4' => 'Khuyến khích khả năng sáng tạo thông qua kỹ năng ứng tấu và sáng tác âm nhạc.',
+        'music_programmes_content_text_5' => 'Hoàn thiện kỹ năng âm nhạc thông qua trình diễn.',
+        'music_programmes_content_text_6' => 'Học viên sẽ bắt đầu bằng giáo trình phù hợp với độ tuổi và cấp độ, nhằm chuẩn bị cho chương trình đào tạo của Trinity (Trinity College London) và/hoặc của ABRSM (Associated Board of the Royal School of Music ), bao gồm thể loại Classical (Cổ điển) & Jazz, hay Rock & Pop.',
+
+        'percussion_class_text' => 'Trống & Bộ gõ',
+        'theory_class_text' => 'Lý thuyết âm nhạc',
+        'musicianship_class_text' => 'Lý thuyết, Cảm thụ và Sáng tạo âm nhạc',
+        'flute_class_text' => 'Flute',
+        'string_class_text' => 'Bộ dây',
+        'guitar_class_text' => 'Guitar',
+        'vocal_class_text' => 'Thanh nhạc',
+        'piano_class_text' => 'Piano',
 
 
         // ## Programs at PHCA ##

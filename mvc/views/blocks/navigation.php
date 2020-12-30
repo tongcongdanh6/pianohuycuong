@@ -21,7 +21,7 @@
               <div class="dropdown-menu" aria-labelledby="dropdownId">
                 <a class="dropdown-item" href="<?=$_GLOBAL["publicURL"]?>/overview_programs_at_phca/"><?=$data["langData"]["summary_text"]?></a>
                 <a class="dropdown-item" href="<?=$_GLOBAL["publicURL"]?>/early_childhood_program/"><?=$data["langData"]["early_childhood_program"]?></a>
-                <a class="dropdown-item" href="#"><?=$data["langData"]["music_program"]?></a>
+                <a class="dropdown-item" href="<?=$_GLOBAL["publicURL"]?>/music_programmes/"><?=$data["langData"]["music_program"]?></a>
                 <a class="dropdown-item" href="#"><?=$data["langData"]["dancing_program"]?></a>
               </div>
             </li>

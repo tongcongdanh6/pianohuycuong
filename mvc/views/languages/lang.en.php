@@ -2,6 +2,8 @@
     $lang = [
         // CONSTANT text
         'overview_text' => 'Overview',
+        'seemore_text' => 'See more',
+        'subjects_text' => 'Subjects',
         'academy_name' => 'PHC Music & Performing Arts Academy',
 
         // Button Text
@@ -79,7 +81,24 @@
         'kindermusik_header_text' => 'Kindermusik',
         'kindermusik_content_text' => 'Kindermusik is the world’s leading provider of music-based education for children from four months through age five. Kindermusik uses the power of music and communication to help children learn and grow during the years most critical to brain development. Since 1978, Kindermusik has helped millions of children around the world build a strong foundation for a lifetime love of learning. Kindermusik at SMPAA is taught by Kindermusik International certified teachers.',
 
+        'music_programmes_header_text' => 'Music Programmes',
+        'music_programmes_content_text_1' => 'The PHCA Music Curriculum is focused on four-aspects of learning:',
+        'music_programmes_content_text_2' => 'Building a strong technical and theoretical foundation.',
+        'music_programmes_content_text_3' => 'Applying learned techniques and theories to different genres of music.',
+        'music_programmes_content_text_4' => 'Encouraging creativity through the exploration of improvisation and composition.',
+        'music_programmes_content_text_5' => 'Encouraging performance to showcase learned skills.',
+        'music_programmes_content_text_6' => 'Students begin with age-and-level-appropriate syllabi in preparation for the Associated Board of the Royal Schools of Music (ABRSM) programmes and the Trinity College London (Trinity) programmes, where students will have the option of specializing in classical and jazz, or rock and pop genres.',
 
+
+        'percussion_class_text' => 'Percussion',
+        'theory_class_text' => 'Theory',
+        'musicianship_class_text' => 'Musicianship class',
+        'flute_class_text' => 'Flute',
+        'string_class_text' => 'String',
+        'guitar_class_text' => 'Guitar',
+        'vocal_class_text' => 'Vocal',
+        'piano_class_text' => 'Piano',
+        
 
 
         // ## Programs at PHCA ##

@@ -8,9 +8,9 @@
       <div class="row pt-2 mt-lg-5">
 
         <!-- Grid column -->
-        <div class="col-lg-6 col-md-12 mb-3 bg-image-programs-at-phca-overview wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+        <div class="col-lg-6 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
           <!-- Image -->
-
+          <img src="<?=$_GLOBAL["publicURL"]?>/public/images/programs_at_phca/aerobic.jpg" class="img-fluid">
         </div>
         <!-- Grid column -->
 
