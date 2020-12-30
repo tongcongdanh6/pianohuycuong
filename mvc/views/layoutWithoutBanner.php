@@ -27,7 +27,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
     body,
     header,
     .jarallax {
-      height: 100%;
+      height: 100px;
     }
 
     @media (min-width: 560px) and (max-width: 740px) {
@@ -63,7 +63,7 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
 </head>
 
 <body class="university-lp">
-  <?php require_once "./mvc/views/blocks/header.php" ?>
+  <?php require_once "./mvc/views/blocks/headerWithoutBanner.php" ?>
 
   <?php require_once "./mvc/views/pages/".$data["page"] ?>
 

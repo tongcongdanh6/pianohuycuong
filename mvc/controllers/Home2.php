@@ -1,6 +1,6 @@
 <?php 
     class Home2 extends Controller {
-        function SayHi() {
+        function Default() {
             // Các action trong này quy định về việc lấy database từ bảng nào, view nào sẽ lấy ra để hiển thị
 
             // Model
@@ -12,6 +12,7 @@
             require_once("./mvc/views/languages/lang.".$_SESSION["lang"].".php");
 
             $this->view("layout_2", [
+                "page" => "homepage/homepage.php",
                 "langData" => $lang
                 ]);
             // View

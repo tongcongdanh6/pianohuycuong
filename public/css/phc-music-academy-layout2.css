@@ -265,3 +265,22 @@ h2::after {
 .mask-gradient-blue {
     background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%) !important;
 }
+
+.background-gradient-1 {
+    background: rgb(2, 0, 36);
+    background: -moz-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.2556372890953257) 35%, rgba(0, 212, 255, 0.2) 100%) !important;
+    background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.2556372890953257) 35%, rgba(0, 212, 255, 0.2) 100%) !important;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.2556372890953257) 35%, rgba(0, 212, 255, 0.2) 100%) !important;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1) !important;
+}
+
+.bg-image-programs-at-phca-overview {
+    background: url('../images/programs_at_phca/dancing.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-shadow-blue {
+    color: #080D6B;
+    text-shadow: 1px 2px 6px rgba(15, 7, 206, 0.81);
+}

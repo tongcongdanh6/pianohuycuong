@@ -7,7 +7,8 @@
             $teo = $this->model("SinhVienModel");
 
             $this->view("layout_3", [
-                "pageTitle" => "PHC Music & Performing Arts Academy"
+                "pageTitle" => "PHC Music & Performing Arts Academy",
+                "page" => "homepage/homepage.php"
                 ]);
             // View
         }
