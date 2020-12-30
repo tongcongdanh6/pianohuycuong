@@ -161,7 +161,52 @@
         'music_theory_class_content_text_7' => 'Tham dự kỳ thi lấy chứng chỉ quốc tế theo cấp độ phù hợp (Trinity và ABRSM).',
         // ## THEORY CLASS CONTENT 
 
+        // MUSICIANSHIP CLASS CONTENT
+        'musicianship_class_header_text' => 'Lý thuyết, cảm thụ và sáng tạo âm nhạc',
+        'musicianship_class_content_text_1' => 'Lớp lý thuyết, sáng tạo và cảm thụ âm nhạc là môn học được thiết kế song hành với các bộ môn thực hành tại PHCA nhằm xây dựng cho học viên một hành trình cơ bản toàn diện với hai yếu tố thực hành và lý thuyết. Trong lớp học, học viên sẽ được xây dưng kiến thức âm nhạc cơ bản, thực hành và phát triển các kỹ năng âm nhạc, cảm thụ và sáng tạo thông qua các hoạt động âm nhạc và hòa tấu.',
+        'musicianship_class_content_text_2' => 'Xây dựng kiến thức cơ bản về lý thuyết âm nhạc.',
+        'musicianship_class_content_text_3' => 'Xây dựng kỹ năng âm nhạc.',
+        'musicianship_class_content_text_4' => 'Khơi gợi cảm nhận và sáng tạo thông qua hoạt động âm nhạc.',
+        'musicianship_class_content_text_5' => 'Ứng dụng kiến thức, kỹ năng âm nhạc với các loại nhạc cụ khác nhau.',
+        'musicianship_class_content_text_6' => 'Xây dựng những khả năng tương tác và kết nối tập thể qua âm nhạc với các hình thức hòa tấu.',
+        'musicianship_class_content_text_7' => 'Học viên được nhận xét và đánh giá chi tiết từng học phần lý thuyết, kỹ năng và và cảm thụ âm nhạc sau mỗi học kỳ (từ cấp độ từ cơ bản đến nâng cao) theo chương trình được thiết kế của PHCA.',
+        'musicianship_class_content_text_8' => 'Tham dự kỳ thi lấy chứng chỉ quốc tế theo cấp độ phù hợp (Trinity và ABRSM)',
+        // ##MUSICIANSHIP CLASS CONTENT
 
+
+        // FLUTE CLASS CONTENT
+
+        'flute_class_header_text' => 'Flute',
+        'flute_class_content_text_1' => 'Chương trình học bộ môn Flute tại SMPAA giúp học viên xây dựng và phát triển các kỹ năng phối hợp của tay, mắt và hơi thở để tạo âm thanh trên nhạc cụ, cũng như sự tập trung, tỉ mỉ, uyển chuyển và tự tin khi thể hiện âm nhạc. Qua các tác phẩm dành cho Flute, học viên được khám phá nhiều màu sắc âm nhạc đa dạng, được truyền cảm hứng và đam mê qua sự phong phú của âm thanh của nhạc cụ. Môn học cũng xây dựng cho học viên một tinh thần trách nhiệm qua quy trình bảo quản nhạc cụ.',
+
+        'flute_class_content_text_2' => 'Flute cổ điển – Xây dựng kỹ thuật từ cơ bản đến nâng cao theo từng cấp độ học.',
+        'flute_class_content_text_3' => 'Giáo trình học của âm nhạc quốc tế.',
+        'flute_class_content_text_4' => 'Phát triển kỹ năng biểu diễn. Tự tin và hoàn thiện giao tiếp trong xã hội.',
+
+        // Beginner
+        'flute_class_content_text_5' => 'Kỹ thuật nhạc cụ cơ bản qua các bài tập Gam và Etude cơ bản:',
+        'flute_class_content_text_6' => '+ Tư thế cầm flute',
+        'flute_class_content_text_7' => '+ Vị trí đặt môi, tạo và kiểm soát âm thanh',
+        'flute_class_content_text_8' => '+ Kiểm soát hơi thở',
+        'flute_class_content_text_9' => '+ Kỹ thuật legato',
+        'flute_class_content_text_10' => 'Kỹ năng thị tấu cơ bản',
+        'flute_class_content_text_11' => 'Ý thức và kỹ năng cơ bản về cách bảo quản nhạc cụ',
+
+        // Intermediate
+        'flute_class_content_text_12' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ sơ cấp',
+        'flute_class_content_text_13' => 'Tiếp xúc các trường phái của từng thời kỳ âm nhạc (Tiền cổ điển, Cổ điển, Lãng mạn…), phát triển kỹ thuật và xử lý lý tác phẩm',
+        'flute_class_content_text_14' => 'Duy trì và phát triển các kỹ thuật tạo âm thanh',
+        'flute_class_content_text_15' => 'Phản xạ thị tấu và kỹ năng diễn tấu – Kỹ năng chuẩn bị nhạc cụ trước khi chơi',
+
+        // Advanced
+        'flute_class_content_text_16' => 'Hoàn thành kiến thức va kỹ thuật của cấp độ sơ cấp và trung cấp',
+        'flute_class_content_text_17' => 'Duy trì và phát triển các kỹ thuật tạo âm thanh',
+        'flute_class_content_text_18' => 'Nâng cao khả năng kiểm soát và điều chỉnh cao độ',
+        'flute_class_content_text_19' => 'Thể hiện cá tính trong cách xử lý tác phẩm',
+        'flute_class_content_text_20' => 'Kết quả học tập được công nhận bằng những chứng chỉ quốc tế (Trinity, ABRSM)',
+        // ## FLUTE CLASS CONTENT
+
+        
         // FOOTER
         'copyright_text' => 'Bản quyền © 2021 thuộc về:'
     ];

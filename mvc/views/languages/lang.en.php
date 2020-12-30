@@ -163,6 +163,52 @@
         'music_theory_class_content_text_7' => 'Earn International Qualifications (Trinity or ABRSM) at appropriate levels.',
         // ## THEORY CLASS CONTENT 
 
+
+        // MUSICIANSHIP CLASS CONTENT
+        'musicianship_class_header_text' => 'Musicianship Class',
+        'musicianship_class_content_text_1' => 'The PHCA Musicianship class is designed to accompany other courses at PHCA to provide students with a holistic musical understanding with both theoretical and practical elements. During classtime, students will build up their basic musical knowledge, practice and develop their musical skills, sensitivity and creativity through musical and ensemble activities.',
+        
+        'musicianship_class_content_text_2' => 'Learn the fundamentals of music theory',
+        'musicianship_class_content_text_3' => 'Develop musical skills',
+        'musicianship_class_content_text_4' => 'Inspire creativity and sensitivity via musical activities',
+        'musicianship_class_content_text_5' => 'Apply knowledge and skills when using different kinds of instruments',
+        'musicianship_class_content_text_6' => 'Building social and team work skills through ensemble activities',
+        'musicianship_class_content_text_7' => 'Each student at each level is assessed in theory, skills and music appreciation at the end of each term',
+        'musicianship_class_content_text_8' => 'Earn International Qualifications (Trinity or ABRSM) at appropriate levels',
+        // ## MUSICIANSHIP CLASS CONTENT
+
+        // FLUTE CLASS CONTENT
+        'flute_class_header_text' => 'Flute',
+
+        'flute_class_content_text_1' => 'Flute class at SMPAA provides students the ability to build and develop hand-eye coordination and breath control for sound production; enhance their concentration, meticulosity, flexibility and confidence while performing. During the course, students will explore various styles of music and are inspired by the versatility of the instrument. This program also helps students develop a sense of responsibility through the habits of instrument maintenance.',
+
+        'flute_class_content_text_2' => 'Classical flute Building a foundation of techniques from basic to advanced levels.',
+        'flute_class_content_text_3' => 'International musical curriculum.',
+        'flute_class_content_text_4' => 'Developing performance skills. Perfecting confidence and social communication skills.',
+        // Beginner
+        'flute_class_content_text_5' => 'Accomplish basic flute techniques by practicing Scales and Etude:',
+        'flute_class_content_text_6' => '+ Basic posture in flute playing',
+        'flute_class_content_text_7' => '+ Embouchure and sound control',
+        'flute_class_content_text_8' => '+ Breath control ',
+        'flute_class_content_text_9' => '+ Legato',
+        'flute_class_content_text_10' => 'Basic sight-reading ability',
+        'flute_class_content_text_11' => 'Basics of musical instrument maintenance',
+
+        // Intermediate
+        'flute_class_content_text_12' => 'Acquire all knowledge and skills of Beginner level',
+        'flute_class_content_text_13' => 'Approach musical periods and genres (Baroque, Classical, Romantic…), improve techniques and musical interpretations in compositions for the Flute.',
+        'flute_class_content_text_14' => 'Maintain and advance sound production techniques.',
+        'flute_class_content_text_15' => 'Develop musicality through performance and sight-reading skills - Preparation procedure before playing',
+
+        // Advanced
+        'flute_class_content_text_16' => 'Acquire all knowledge and skills of Beginner and Intermediate level.',
+        'flute_class_content_text_17' => 'Understand and be able to execute all standard techniques of sound production',
+        'flute_class_content_text_18' => 'Improve intonation',
+        'flute_class_content_text_19' => 'Encourage self-expression through performance.',
+        'flute_class_content_text_20' => 'Acquire international qualifications (Trinity, ABRSM)',
+
+        // ## FLUTE CLASS CONTENT
+
         // FOOTER
         'copyright_text' => 'Copyright © 2021 by:'
         

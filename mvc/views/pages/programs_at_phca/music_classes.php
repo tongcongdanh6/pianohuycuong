@@ -63,7 +63,7 @@
 
       <div class="mask flex-center mask-gradient-blue2">
 
-        <a class="btn btn-outline-white btn-rounded wow fadeInUp waves-effect waves-light" data-wow-delay="0.2s" href="#tour" data-offset="85" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.2s;">
+        <a class="btn btn-outline-white btn-rounded wow fadeInUp waves-effect waves-light" data-wow-delay="0.2s" href="<?= $_GLOBAL["publicURL"] ?>/musicianship_class/" data-offset="85" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.2s;">
 
           <span class="text-uppercase"><?= $data["langData"]["seemore_text"] ?></span>
 
@@ -87,7 +87,7 @@
 
       <div class="mask flex-center mask-gradient-blue2">
 
-        <a class="btn btn-outline-white btn-rounded wow fadeInUp waves-effect waves-light" data-wow-delay="0.2s" href="#tour" data-offset="85" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.2s;">
+        <a class="btn btn-outline-white btn-rounded wow fadeInUp waves-effect waves-light" data-wow-delay="0.2s" href="<?= $_GLOBAL["publicURL"] ?>/flute_class/" data-offset="85" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.2s;">
 
           <span class="text-uppercase"><?= $data["langData"]["seemore_text"] ?></span>
 
