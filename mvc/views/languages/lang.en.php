@@ -15,7 +15,8 @@
         'about_phca' => 'About PHCA',
         'greeting_from_founder' => 'Greeting from Founder',
         'the_education_programmes' => 'Education Programmes',
-        'summary_text' => 'Summary',
+        'summary_text' => 'Overview',
+        'early_childhood_program' => 'Early Childhood Program',
         'music_program' => 'Music Program',
         'dancing_program' => 'Dancing Program',
         'online_academy' => 'Online academy',
@@ -60,6 +61,26 @@
 
         'feel_header_text' => 'Feel',
         'feel_content_text' => 'This level is designed to introduce students to music and the performing arts. Students start building their foundational knowledge and develop their interests in music and the performing arts in courses that suit the particular pace, needs, and strengths of these students.',
+
+        'believe_header_text' => 'Believe',
+        'believe_content_text' => 'This level acknowledges students’ progress and development with standardised assessments and carefully planned goals. This programme motivates students to increase their self-confidence through mandatory yearly international examinations (Trinity, ABRSM, ISTD and NATD).',
+        
+        'inspire_header_text' => 'Inspire',
+        'inspire_content_text' => 'This level develops a cohesive bridge for students who wish to pursue further training in the arts, building on their established knowledge, enhancing their performance capabilities and expanding their expertise. All students follow a structured programme with international qualifications while taking part in various artistic projects.',
+
+        'early_childhood_header_text' => 'Early childhood programmes',
+        'early_childhood_content_text_1' => 'The dance and music programmes for children in their early years are based on research and developmentally appropriate curricula and materials.',
+        'early_childhood_content_text_2' => 'Friedrich Froebel, the father of kindergarten, believed that young children should be involved in both creating their own art and enjoying the art of others. To Froebel, arts activities were important because they encouraged each child\'s "full and all-sided development" (Froebel, 1826). The Early Childhood programmes at SMPAA aid in the socio-emotional, cognitive, and motor development of our youngest learners.',
+
+
+        'creative_movers_header_text' => 'Creative Movers',
+        'creative_movers_content_text' => 'Creative Movers is an introductory programme for children to explore a variety of movements, begin learning rhythm and musicality and initiate socialization through dance exercises. It provides a holistic learning approach to assist children ages four and above in developing their minds and bodies through movement and music.',
+
+        'kindermusik_header_text' => 'Kindermusik',
+        'kindermusik_content_text' => 'Kindermusik is the world’s leading provider of music-based education for children from four months through age five. Kindermusik uses the power of music and communication to help children learn and grow during the years most critical to brain development. Since 1978, Kindermusik has helped millions of children around the world build a strong foundation for a lifetime love of learning. Kindermusik at SMPAA is taught by Kindermusik International certified teachers.',
+
+
+
 
         // ## Programs at PHCA ##
 

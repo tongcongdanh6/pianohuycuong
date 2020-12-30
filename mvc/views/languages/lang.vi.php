@@ -17,6 +17,7 @@
         'greeting_from_founder' => 'Lời chào mừng từ Nhà Sáng Lập',
         'the_education_programmes' => 'Chương trình giáo dục',
         'summary_text' => 'Tổng quan',
+        'early_childhood_program' => 'Chương trình Giáo dục Nghệ thuật đầu đời',
         'music_program' => 'Chương trình âm nhạc',
         'dancing_program' => 'Chương trình vũ đạo',
         'online_academy' => 'Học viện trực tuyến',
@@ -62,6 +63,26 @@
 
         'feel_header_text' => 'Cảm nhận',
         'feel_content_text' => 'Chương trình giúp học viên làm quen với các bộ môn âm nhạc và trình diễn nghệ thuật. Học viên sẽ được xây dựng nền tảng kiến thức, song song với việc phát triển niềm yêu thích âm nhạc và trình diễn nghệ thuật phù hợp với nhịp độ, nhu cầu học tập và năng khiếu của từng học viên.',
+
+        'believe_header_text' => 'Tin tưởng',
+        'believe_content_text' => 'Chương trình học có sự công nhận quá trình tiến bộ và phát triển của học viên thông qua các kỳ thi quốc tế định kỳ. Với các hệ thống chứng nhận quốc tế (Trinity, ABRSM, ISTD và NATD) cùng những mục tiêu được xác định cụ thể theo từng giai đoạn, chương trình là sự thúc đẩy cho học viên hoàn thành những kế hoạch học tập một cách hiệu quả nhất.',
+
+        'inspire_header_text' => 'Truyền cảm hứng',
+        'inspire_content_text' => 'Chương trình là cầu nối gắn kết liền mạch cho những học viên có mong muốn tiếp tục theo học nghệ thuật chuyên sâu, hay theo đuổi con đường nghệ sĩ chuyên nghiệp. Chương trình học được thiết kế với hệ thống tiêu chuẩn quốc tế, đồng thời học viên có thể tham gia vào những hoạt động nghệ thuật đa dạng.',
+
+        'early_childhood_header_text' => 'Chương trình giáo dục nghệ thuật đầu đời',
+        'early_childhood_content_text_1' => 'Các chương trình giáo dục âm nhạc và vũ đạo dành cho lứa tuổi mầm non tại SMPAA được thiết kế dựa trên các nghiên cứu chuyên sâu và tham khảo các giáo trình, tài liệu liên quan.',
+        'early_childhood_content_text_2' => 'Friedrich Froebel, người khai sinh hệ thống giáo dục mầm non, tin rằng trẻ nhỏ nên tự trải nghiệm nghệ thuật thông qua việc sáng tạo và thưởng thức. Đối với ông, các hoạt động nghệ thuật rất quan trọng vì nhờ đó, các bé có thể phát triển toàn diện. Chương trình Giáo dục Nghệ thuật Đầu đời tại SMPAA hỗ trợ phát triển thể chất, khả năng kết nối, nhận thức và cảm xúc xã hội của trẻ.',
+
+        'creative_movers_header_text' => 'Creative Movers',
+        'creative_movers_content_text' => 'Chương trình Creative Movers giúp các em làm quen với nghệ thuật vũ đạo và trải nghiệm các phong cách khác nhau như ballet, hip-hop và modern jazz. Lớp học đặc biệt dành cho các học viên độ tuổi từ 4 tuổi trở lên, với phương pháp phát triển thể chất và trí tuệ.',
+
+        'kindermusik_header_text' => 'Kindermusik',
+        'kindermusik_content_text' => 'Kindermusik là chương trình giáo dục âm nhạc hàng đầu thế giới dành cho trẻ từ 4 tháng đến 5 tuổi. Kindermusik sử dụng sức mạnh của sự giao tiếp âm nhạc giúp trẻ phát triển trí não trong những năm quan trọng đầu đời. Từ năm 1978 đến nay, Kindermusik đã đồng hành cùng hàng triệu trẻ em khắp thế giới xây dựng nền tảng học thuật trong tương lai. Chương trình Kindermusik tại SMPAA được giảng dạy bởi các giáo viên được đào tạo và chứng nhận bởi Kindermusik International.',
+
+
+        // ## Programs at PHCA ##
+
 
         // FOOTER
         'copyright_text' => 'Bản quyền © 2021 thuộc về:'
