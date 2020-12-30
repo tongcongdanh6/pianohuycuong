@@ -72,14 +72,14 @@
 
         'early_childhood_header_text' => 'Early childhood programmes',
         'early_childhood_content_text_1' => 'The dance and music programmes for children in their early years are based on research and developmentally appropriate curricula and materials.',
-        'early_childhood_content_text_2' => 'Friedrich Froebel, the father of kindergarten, believed that young children should be involved in both creating their own art and enjoying the art of others. To Froebel, arts activities were important because they encouraged each child\'s "full and all-sided development" (Froebel, 1826). The Early Childhood programmes at SMPAA aid in the socio-emotional, cognitive, and motor development of our youngest learners.',
+        'early_childhood_content_text_2' => 'Friedrich Froebel, the father of kindergarten, believed that young children should be involved in both creating their own art and enjoying the art of others. To Froebel, arts activities were important because they encouraged each child\'s "full and all-sided development" (Froebel, 1826). The Early Childhood programmes at PHCA aid in the socio-emotional, cognitive, and motor development of our youngest learners.',
 
 
         'creative_movers_header_text' => 'Creative Movers',
         'creative_movers_content_text' => 'Creative Movers is an introductory programme for children to explore a variety of movements, begin learning rhythm and musicality and initiate socialization through dance exercises. It provides a holistic learning approach to assist children ages four and above in developing their minds and bodies through movement and music.',
 
         'kindermusik_header_text' => 'Kindermusik',
-        'kindermusik_content_text' => 'Kindermusik is the world’s leading provider of music-based education for children from four months through age five. Kindermusik uses the power of music and communication to help children learn and grow during the years most critical to brain development. Since 1978, Kindermusik has helped millions of children around the world build a strong foundation for a lifetime love of learning. Kindermusik at SMPAA is taught by Kindermusik International certified teachers.',
+        'kindermusik_content_text' => 'Kindermusik is the world’s leading provider of music-based education for children from four months through age five. Kindermusik uses the power of music and communication to help children learn and grow during the years most critical to brain development. Since 1978, Kindermusik has helped millions of children around the world build a strong foundation for a lifetime love of learning. Kindermusik at PHCA is taught by Kindermusik International certified teachers.',
 
         'music_programmes_header_text' => 'Music Programmes',
         'music_programmes_content_text_1' => 'The PHCA Music Curriculum is focused on four-aspects of learning:',
@@ -98,6 +98,24 @@
         'guitar_class_text' => 'Guitar',
         'vocal_class_text' => 'Vocal',
         'piano_class_text' => 'Piano',
+
+        'dance_programmes_header_text' => 'Dance Programmes',
+        'dance_programmes_content_text_1' => 'The PHCA Dance Curriculum is based on the curricula of the Imperial Society of Teachers of Dancing (ISTD) and/or the National Association of Teachers of Dancing (NATD), and focuses on:',
+        'dance_programmes_content_text_2' => 'Developing strong technique through structured lessons',
+        'dance_programmes_content_text_3' => 'Encouraging self expression, confidence and self awareness',
+        'dance_programmes_content_text_4' => 'Facilitating a creative learning environment',
+        'dance_programmes_content_text_5' => 'Enhancing group work and socialization within class',
+
+        'imperial_classical_ballet_class_text' => 'Imperial Classical Ballet',
+        'modern_jazz_class_text' => 'Modern Jazz',
+        'commercial_hiphop_class_text' => 'Commercial Hip-Hop',
+        'tap_dance_class_text' => 'Tap Dance',
+        'dancesport_class_text' => 'Dancesport',
+        'creative_movers_class_text' => 'Creative Movers',
+        'contemporary_dance_class_text' => 'Contemporary Dance',
+
+
+
         
 
 

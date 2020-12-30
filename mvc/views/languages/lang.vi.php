@@ -73,14 +73,14 @@
         'inspire_content_text' => 'Chương trình là cầu nối gắn kết liền mạch cho những học viên có mong muốn tiếp tục theo học nghệ thuật chuyên sâu, hay theo đuổi con đường nghệ sĩ chuyên nghiệp. Chương trình học được thiết kế với hệ thống tiêu chuẩn quốc tế, đồng thời học viên có thể tham gia vào những hoạt động nghệ thuật đa dạng.',
 
         'early_childhood_header_text' => 'Chương trình giáo dục nghệ thuật đầu đời',
-        'early_childhood_content_text_1' => 'Các chương trình giáo dục âm nhạc và vũ đạo dành cho lứa tuổi mầm non tại SMPAA được thiết kế dựa trên các nghiên cứu chuyên sâu và tham khảo các giáo trình, tài liệu liên quan.',
-        'early_childhood_content_text_2' => 'Friedrich Froebel, người khai sinh hệ thống giáo dục mầm non, tin rằng trẻ nhỏ nên tự trải nghiệm nghệ thuật thông qua việc sáng tạo và thưởng thức. Đối với ông, các hoạt động nghệ thuật rất quan trọng vì nhờ đó, các bé có thể phát triển toàn diện. Chương trình Giáo dục Nghệ thuật Đầu đời tại SMPAA hỗ trợ phát triển thể chất, khả năng kết nối, nhận thức và cảm xúc xã hội của trẻ.',
+        'early_childhood_content_text_1' => 'Các chương trình giáo dục âm nhạc và vũ đạo dành cho lứa tuổi mầm non tại PHCA được thiết kế dựa trên các nghiên cứu chuyên sâu và tham khảo các giáo trình, tài liệu liên quan.',
+        'early_childhood_content_text_2' => 'Friedrich Froebel, người khai sinh hệ thống giáo dục mầm non, tin rằng trẻ nhỏ nên tự trải nghiệm nghệ thuật thông qua việc sáng tạo và thưởng thức. Đối với ông, các hoạt động nghệ thuật rất quan trọng vì nhờ đó, các bé có thể phát triển toàn diện. Chương trình Giáo dục Nghệ thuật Đầu đời tại PHCA hỗ trợ phát triển thể chất, khả năng kết nối, nhận thức và cảm xúc xã hội của trẻ.',
 
         'creative_movers_header_text' => 'Creative Movers',
         'creative_movers_content_text' => 'Chương trình Creative Movers giúp các em làm quen với nghệ thuật vũ đạo và trải nghiệm các phong cách khác nhau như ballet, hip-hop và modern jazz. Lớp học đặc biệt dành cho các học viên độ tuổi từ 4 tuổi trở lên, với phương pháp phát triển thể chất và trí tuệ.',
 
         'kindermusik_header_text' => 'Kindermusik',
-        'kindermusik_content_text' => 'Kindermusik là chương trình giáo dục âm nhạc hàng đầu thế giới dành cho trẻ từ 4 tháng đến 5 tuổi. Kindermusik sử dụng sức mạnh của sự giao tiếp âm nhạc giúp trẻ phát triển trí não trong những năm quan trọng đầu đời. Từ năm 1978 đến nay, Kindermusik đã đồng hành cùng hàng triệu trẻ em khắp thế giới xây dựng nền tảng học thuật trong tương lai. Chương trình Kindermusik tại SMPAA được giảng dạy bởi các giáo viên được đào tạo và chứng nhận bởi Kindermusik International.',
+        'kindermusik_content_text' => 'Kindermusik là chương trình giáo dục âm nhạc hàng đầu thế giới dành cho trẻ từ 4 tháng đến 5 tuổi. Kindermusik sử dụng sức mạnh của sự giao tiếp âm nhạc giúp trẻ phát triển trí não trong những năm quan trọng đầu đời. Từ năm 1978 đến nay, Kindermusik đã đồng hành cùng hàng triệu trẻ em khắp thế giới xây dựng nền tảng học thuật trong tương lai. Chương trình Kindermusik tại PHCA được giảng dạy bởi các giáo viên được đào tạo và chứng nhận bởi Kindermusik International.',
 
         'music_programmes_header_text' => 'Các chương trình âm nhạc',
         'music_programmes_content_text_1' => 'Chương trình giáo dục Âm nhạc tại PHCA chú trọng vào 4 yếu tố:',
@@ -98,6 +98,21 @@
         'guitar_class_text' => 'Guitar',
         'vocal_class_text' => 'Thanh nhạc',
         'piano_class_text' => 'Piano',
+
+        'dance_programmes_header_text' => 'Chương trình vũ đạo',
+        'dance_programmes_content_text_1' => 'Chương trình giáo dục Vũ đạo tại PHCA được xây dựng dựa trên phương pháp từ ISTD (Imperial Society of Teachers of Dancing) và/hoặc NATD (National Association of Teachers of Dancing) - hai hội đồng khảo thí vũ đạo hàng đầu thế giới. Nhấn mạnh vào việc tập luyện vũ đạo an toàn và phát triển kỹ thuật, chương trình giảng dạy vũ đạo PHCA chú trọng vào việc:',
+        'dance_programmes_content_text_2' => 'Phát triển kỹ thuật thông qua hệ thống các bài tập',
+        'dance_programmes_content_text_3' => 'Khuyến khích khả năng thể hiện bản thân, sự tự tin và ý thức về bản thân',
+        'dance_programmes_content_text_4' => 'Tạo ra một môi trường học tập sáng tạo',
+        'dance_programmes_content_text_5' => 'Tăng cường kỹ năng làm việc nhóm và kỹ năng xã hội',
+
+        'imperial_classical_ballet_class_text' => 'Ballet Cổ điển',
+        'modern_jazz_class_text' => 'Modern Jazz',
+        'commercial_hiphop_class_text' => 'Commercial Hip-Hop',
+        'tap_dance_class_text' => 'Nhảy Thiết Hài',
+        'dancesport_class_text' => 'Dancesport',
+        'creative_movers_class_text' => 'Creative Movers',
+        'contemporary_dance_class_text' => 'Múa đương đại',
 
 
         // ## Programs at PHCA ##
