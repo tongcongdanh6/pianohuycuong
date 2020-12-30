@@ -148,10 +148,18 @@
         'drum_class_content_text_18' => 'Thể hiện sự chủ động, bản lĩnh của sự dẫn dắt biểu diễn trong ban nhạc',
         'drum_class_content_text_19' => 'Nâng cao kỹ năng sử dụng bộ gõ',
         'drum_class_content_text_20' => 'Kết quả học tập được công nhận bằng chứng chỉ quốc tế (Trinity)',
-        
-
-
         // ## DRUM CLASS CONTENT ##
+
+        // THEORY CLASS CONTENT
+        'music_theory_class_header_text' => 'Lớp lý thuyết',
+        'music_theory_class_content_text_1' => 'Chương trình được đề ra với mục tiêu giúp học viên thấu hiểu nhạc lý nhằm giúp các em kết nối và hiểu rõ hơn các tác phẩm âm nhạc trong các giờ học chuyên môn, cũng như đặt mục tiêu hoàn thành chứng chỉ Nhạc lý Grade 5 cần thiết ở các bộ môn thực hành ở trình độ Cao cấp. Chương trình học tập trung vào các chủ đề và kiến thức chuyên sâu về nhạc lý.',
+        'music_theory_class_content_text_2' => 'Xây dựng hệ thống kiến thức lý thuyết âm nhạc.',
+        'music_theory_class_content_text_3' => 'Cách tư duy và lý luận sử dụng kiến thức lý thuyết âm nhạc.',
+        'music_theory_class_content_text_4' => 'Áp dụng kiến thức lý thuyết âm nhạc trong phân tích các tác phẩm âm nhạc.',
+        'music_theory_class_content_text_5' => 'Áp dụng hiểu biết đa chiều về các kiến thức lý thuyết âm nhạc trong các bài thi Lý thuyết Âm nhạc của Trinity và ABRSM.',
+        'music_theory_class_content_text_6' => 'Học viên được nhận xét và đánh giá chi tiết từng học phần lý thuyết, kỹ năng và và cảm thụ âm nhạc sau mỗi học kỳ (từ cấp độ từ cơ bản đến nâng cao) theo chương trình được thiết kế của PHCA.',
+        'music_theory_class_content_text_7' => 'Tham dự kỳ thi lấy chứng chỉ quốc tế theo cấp độ phù hợp (Trinity và ABRSM).',
+        // ## THEORY CLASS CONTENT 
 
 
         // FOOTER

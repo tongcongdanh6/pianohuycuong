@@ -37,7 +37,7 @@
   </div>
 
 
-  <div class="container py-5">
+  <div class="container pt-5">
     <div class="row wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
       <div class="col-lg-6 col-md-6">
         <span class="h2 text-shadow-blue text-uppercase"><?= $data["langData"]["learning_objectives_text"] ?></span>

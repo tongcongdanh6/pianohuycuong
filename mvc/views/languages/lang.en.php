@@ -151,7 +151,17 @@
         'drum_class_content_text_20' => 'Acquire international qualification (Trinity)',
         // ## DRUM CLASS CONTENT ##
 
-
+        
+        // THEORY CLASS CONTENT
+        'music_theory_class_header_text' => 'Theory',
+        'music_theory_class_content_text_1' => 'The courses aim for students’ better understanding of music theory, helping them to better connect and understand the musical works in their practical lessons, as well as reaching the grade 5 level in music theory which will prepare them for international examinations at advanced levels. The major building blocks of music theory will provide the basic curriculum for this rigorous course.',
+        'music_theory_class_content_text_2' => 'Systemize the building blocks of music theory.',
+        'music_theory_class_content_text_3' => 'Strengthen logical and rational thinking skills based on music theory.',
+        'music_theory_class_content_text_4' => 'Apply music theory to analyzing musical compositions.',
+        'music_theory_class_content_text_5' => 'Apply comprehensive understanding of music theory in Trinity and ABRSM Theory of Music exams.',
+        'music_theory_class_content_text_6' => 'Each student at Each level is assessed in theory, skills and music appreciation at the end of Each term.',
+        'music_theory_class_content_text_7' => 'Earn International Qualifications (Trinity or ABRSM) at appropriate levels.',
+        // ## THEORY CLASS CONTENT 
 
         // FOOTER
         'copyright_text' => 'Copyright © 2021 by:'
