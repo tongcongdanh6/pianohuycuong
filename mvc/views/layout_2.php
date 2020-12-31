@@ -15,7 +15,7 @@ $_GLOBAL["publicURL"] = "https://" . $_SERVER["HTTP_HOST"]; // To Heroku
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel='stylesheet' id='gdlr-core-google-font-css' href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CABeeZee%3Aregular%2Citalic&#038;subset=devanagari%2Clatin%2Clatin-ext&#038;ver=5.5.3' type='text/css' media='all' />
-  <link rel='stylesheet' id='gdlr-core-google-font-css' href='http://fonts.googleapis.com/css?family=Spicy+Rice%3A400&ver=5.1.8' type='text/css' media='all' />
+  <link rel='stylesheet' id='gdlr-core-google-font-css' href='https://fonts.googleapis.com/css?family=Spicy+Rice%3A400&ver=5.1.8' type='text/css' media='all' />
   <link rel="icon" href="<?= $_GLOBAL["publicURL"]; ?>/public/icon.ico" sizes="16x16" type="image/png">
   <!-- Bootstrap core CSS -->
   <link href="<?= $_GLOBAL["publicURL"]; ?>/public/vendors/mdb/css/bootstrap.min.css" rel="stylesheet">
