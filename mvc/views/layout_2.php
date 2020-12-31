@@ -1,6 +1,6 @@
 <?php
 // $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
-$_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"];
+$_GLOBAL["publicURL"] = "https://" . $_SERVER["HTTP_HOST"]; // To Heroku
 ?>
 
 
