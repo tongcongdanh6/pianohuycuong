@@ -44,23 +44,23 @@
       </div>
 
       <div class="col-lg-6 col-md-6">
-        <p class="text-justfity">
+        <p class="text-justify">
           <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
           <?= $data["langData"]["string_class_content_text_2"] ?>
         </p>
-        <p class="text-justfity">
+        <p class="text-justify">
           <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
           <?= $data["langData"]["string_class_content_text_3"] ?>
         </p>
-        <p class="text-justfity">
+        <p class="text-justify">
           <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
           <?= $data["langData"]["string_class_content_text_4"] ?>
         </p>
-        <p class="text-justfity">
+        <p class="text-justify">
           <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
           <?= $data["langData"]["string_class_content_text_5"] ?>
         </p>
-        <p class="text-justfity">
+        <p class="text-justify">
           <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
           <?= $data["langData"]["string_class_content_text_6"] ?>
         </p>
@@ -95,23 +95,23 @@
 
         <div class="pt-2">
           <div class="h4"><?= $data["langData"]["intermediate_level_text"] ?></div>
-          <p class="text-justfity">
+          <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
             <?= $data["langData"]["string_class_content_text_11"] ?>
           </p>        
-          <p class="text-justfity">
+          <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
             <?= $data["langData"]["string_class_content_text_12"] ?>
           </p>       
-          <p class="text-justfity">
+          <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
             <?= $data["langData"]["string_class_content_text_13"] ?>
           </p>        
-          <p class="text-justfity">
+          <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
             <?= $data["langData"]["string_class_content_text_14"] ?>
           </p>
-          <p class="text-justfity">
+          <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
             <?= $data["langData"]["string_class_content_text_15"] ?>
           </p>
@@ -119,23 +119,23 @@
 
         <div class="pt-2">
           <div class="h4"><?= $data["langData"]["advanced_level_text"] ?></div>
-          <p class="text-justfity">
+          <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
             <?= $data["langData"]["string_class_content_text_16"] ?>
           </p>        
-          <p class="text-justfity">
+          <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
             <?= $data["langData"]["string_class_content_text_17"] ?>
           </p>       
-          <p class="text-justfity">
+          <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
             <?= $data["langData"]["string_class_content_text_18"] ?>
           </p>        
-          <p class="text-justfity">
+          <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
             <?= $data["langData"]["string_class_content_text_19"] ?>
           </p>
-          <p class="text-justfity note note-success">
+          <p class="text-justify note note-success">
             <?= $data["langData"]["string_class_content_text_20"] ?>
           </p>
         </div>

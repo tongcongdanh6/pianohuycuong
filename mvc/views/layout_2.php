@@ -82,6 +82,8 @@ $_GLOBAL["publicURL"] = "http://" . $_SERVER["HTTP_HOST"] . "/pianohuycuong";
   <!--MDB core JavaScript-->
   <script src="<?= $_GLOBAL["publicURL"]; ?>/public/vendors/mdb/js/mdb.min.js"></script>
 
+  <script src="<?= $_GLOBAL["publicURL"]; ?>/public/js/phc.script.js"></script>
+
   <script>
     //Animation init
     new WOW().init();
