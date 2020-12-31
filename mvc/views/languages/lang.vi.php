@@ -177,7 +177,7 @@
         // FLUTE CLASS CONTENT
 
         'flute_class_header_text' => 'Flute',
-        'flute_class_content_text_1' => 'Chương trình học bộ môn Flute tại SMPAA giúp học viên xây dựng và phát triển các kỹ năng phối hợp của tay, mắt và hơi thở để tạo âm thanh trên nhạc cụ, cũng như sự tập trung, tỉ mỉ, uyển chuyển và tự tin khi thể hiện âm nhạc. Qua các tác phẩm dành cho Flute, học viên được khám phá nhiều màu sắc âm nhạc đa dạng, được truyền cảm hứng và đam mê qua sự phong phú của âm thanh của nhạc cụ. Môn học cũng xây dựng cho học viên một tinh thần trách nhiệm qua quy trình bảo quản nhạc cụ.',
+        'flute_class_content_text_1' => 'Chương trình học bộ môn Flute tại PHCA giúp học viên xây dựng và phát triển các kỹ năng phối hợp của tay, mắt và hơi thở để tạo âm thanh trên nhạc cụ, cũng như sự tập trung, tỉ mỉ, uyển chuyển và tự tin khi thể hiện âm nhạc. Qua các tác phẩm dành cho Flute, học viên được khám phá nhiều màu sắc âm nhạc đa dạng, được truyền cảm hứng và đam mê qua sự phong phú của âm thanh của nhạc cụ. Môn học cũng xây dựng cho học viên một tinh thần trách nhiệm qua quy trình bảo quản nhạc cụ.',
 
         'flute_class_content_text_2' => 'Flute cổ điển – Xây dựng kỹ thuật từ cơ bản đến nâng cao theo từng cấp độ học.',
         'flute_class_content_text_3' => 'Giáo trình học của âm nhạc quốc tế.',
@@ -206,6 +206,148 @@
         'flute_class_content_text_20' => 'Kết quả học tập được công nhận bằng những chứng chỉ quốc tế (Trinity, ABRSM)',
         // ## FLUTE CLASS CONTENT
 
+
+        // STRING CLASS CONTENT
+        'string_class_header_text' => 'Bộ dây',
+
+        'string_class_content_text_1' => 'Bộ môn đàn dây tại PHCA mang đến cho học viên cơ hội tìm hiểu và khám phá một trong những bộ nhạc cụ quan trọng của nền âm nhạc thế giới. Việc tìm hiều âm nhạc dành cho bộ dây giúp học viên có một cách nhìn bao quát về âm nhạc, cùng những kỹ năng kết nối và tương tác. Kỹ thuật đàn dây rèn luyện cho học viên tính cẩn thận, tỉ mỉ qua sự phối hợp tinh tế giữa hai tay.',
+        
+        'string_class_content_text_2' => 'Xây dựng kỹ thuật từ cơ bản đến nâng cao qua từng cấp độ',
+        'string_class_content_text_3' => 'Kiến thức về lịch sử và lý thuyết âm nhạc',
+        'string_class_content_text_4' => 'Khả năng thị tấu',
+        'string_class_content_text_5' => 'Xây dựng sự kết nối và tương tác thông qua thực hành và biểu diễn',
+        'string_class_content_text_6' => 'Kỹ năng biểu diễn của bộ dây',
+        
+        // Beginner Level
+        'string_class_content_text_7' => 'Hoàn thành những yêu cầu và kỹ năng tạo âm thanh cơ bản (thế đứng/ngồi, cách cầm đàn, thế arche)',
+        'string_class_content_text_8' => 'Ý thức và kỹ năng cơ bản về cách bảo quản nhạc cụ',
+        'string_class_content_text_9' => 'Thực hành các bài tập với cao độ và tiết tấu đơn giản',
+        'string_class_content_text_10' => 'Kỹ năng thị tấu cơ bản',
+        
+        // Intermediate Level
+        'string_class_content_text_11' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ sơ cấp',
+        'string_class_content_text_12' => 'Duy trì và phát triển các kỹ thuật tạo âm thanh',
+        'string_class_content_text_13' => 'Thực hành kỹ thuật ở các thế tay cao hơn',
+        'string_class_content_text_14' => 'Phản xạ thị tấu và kỹ năng diễn tấu',
+        'string_class_content_text_15' => 'Kỹ năng chuẩn bị nhạc cụ trước khi chơi',
+        
+        // Advanced
+        'string_class_content_text_16' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ trung cấp',
+        'string_class_content_text_17' => 'Duy trì và phát triển các kỹ thuật tạo âm thanh',
+        'string_class_content_text_18' => 'Nâng cao khả năng kiểm soát và điều chỉnh cao độ',
+        'string_class_content_text_19' => 'Kỹ năng xử lý tác phẩm',
+        
+        'string_class_content_text_20' => 'Kết quả học tập được công nhận bằng các chứng chỉ quốc tế (Trinity, ABRSM)',
+
+        // ## STRING CLASS CONTENT
+
+
+        // GUITAR CLASS CONTENT
+        'guitar_class_header_text' => 'Guitar',
+
+        'guitar_class_content_text_1' => 'Chương trình đào tạo Guitar tại PHCA được thiết kế dành cho học viên từ sáu tuổi trở lên ở mọi cấp độ. Dù bắt đầu ở trình độ nào, thì học viên đều được trải qua quá trình luyện tập kỹ thuật, áp dụng lý thuyết và phát triển khả năng tương tác và sáng tạo. Mục tiêu của mỗi học viên sẽ được đáp ứng thông qua các giáo trình đào tạo của các phong cách âm nhạc khác nhau.',
+        
+        'guitar_class_content_text_2' => 'Thực hành các kỹ năng cơ bản của bộ môn guitar',
+        'guitar_class_content_text_3' => 'Học tập và biểu diễn các phong cách âm nhạc khác nhau',
+        'guitar_class_content_text_4' => 'Xây dựng sự tự tin và hoàn thiện khả năng giao tiếp, biểu đạt âm nhạc.',
+        'guitar_class_content_text_5' => 'Phát triển kỹ năng biểu diễn.',
+        'guitar_class_content_text_6' => 'Xây dựng khả năng phối hợp giữa các giác quan.',
+        
+        // Cấp độ Sơ cấp
+        'guitar_class_content_text_7' => 'Thực hành các kỹ thuật guitar cơ bản (kỹ thuật sử dụng phím, chuyển ngón, chuyển thế tay)',
+        'guitar_class_content_text_8' => 'Học tập và thực hành các phong cách âm nhạc khác nhau',
+        'guitar_class_content_text_9' => 'Xây dựng những thế tay cơ bản theo chọn lựa phong cách âm nhạc của học viên',
+        'guitar_class_content_text_10' => 'Thực hành các kỹ thuật chơi hợp âm/gam rải/thang âm theo trình độ',
+        'guitar_class_content_text_11' => 'Thưc hành kỹ năng thị tấu',
+        
+        // Cấp độ Trung cấp
+        'guitar_class_content_text_12' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ sơ cấp',
+        'guitar_class_content_text_13' => 'Thực hành các kỹ thuật guitar trung cấp (tremolo, lướt, legato…)',
+        'guitar_class_content_text_14' => 'Xây dựng khả năng ứng tấu',
+        'guitar_class_content_text_15' => 'Học tập và thực hành các hợp âm/gam rải/thang âm ở trình độ trung cấp',
+        'guitar_class_content_text_16' => 'Thể hiện âm nhạc ở nhiều phong cách khác nhau',
+        'guitar_class_content_text_17' => 'Phát triển kiến thức trên cần đàn',
+        
+        // Cấp độ Cao cấp
+        'guitar_class_content_text_18' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ sơ cấp và trung cấp',
+        'guitar_class_content_text_19' => 'Thực hành diễn tấu ở nhiều phong cách âm nhạc khác nhau dựa trên kiến thức vể hoà âm, giai điệu và tiết tấu thông dụng',
+        'guitar_class_content_text_20' => 'Thực hành các hợp âm/gam rải/thang âm của trình độ cao cấp',
+        'guitar_class_content_text_21' => 'Phát triển kỹ năng ứng tấu ở nhiều thể loại',
+        'guitar_class_content_text_22' => 'Hoàn thiện các kỹ năng trên cần đàn',
+        
+        'guitar_class_content_text_23' => 'Kết quả học tập được công nhận bằng những chứng chỉ quốc tế (Trinity, ABRSM)',
+        // ## GUITAR CLASS CONTENT
+
+        
+        // VOCAL CLASS CONTENT
+        'vocal_class_header_text' => 'Thanh nhạc',
+
+        'vocal_class_content_text_1' => 'Bộ môn Thanh Nhạc tại PHCA không chỉ mang đến cho học viên kiến thức và những kỹ thuật Thanh nhạc để phát triển giọng hát mà còn xây dựng cho học viên những khả năng đặc biệt khác như: Khả năng cảm nhận, khả năng biểu đạt trong giao tiếp, sự tự tin và khả năng kết nối -tương tác với người khác. Với phương pháp thanh nhạc tại PHCA, học viên sẽ được tiếp cận môn học với hai khía cạnh bao gồm tư duy khoa học và cảm nhận thể chất. Từ đó học viên sẽ cảm nhận sự kết nối và phát triển qua từng buổi học bởi sự song hành của hai yếu tố này.',
+        
+        'vocal_class_content_text_2' => 'Thanh nhạc hiện đại và Thanh nhạc cổ điển',
+        'vocal_class_content_text_3' => 'Xây dựng một nền tảng kỹ thuật từ cơ bản đến nâng cao theo từng cấp độ học (cho những mục tiêu biểu đạt âm nhac)',
+        'vocal_class_content_text_4' => 'Giáo trình học có sự kết hợp và cân bằng giữa văn hoá âm nhạc Việt Nam và âm nhạc quốc tế',
+        'vocal_class_content_text_5' => 'Học và thực hành các màu sắc, thể loại âm nhạc khác nhau',
+        'vocal_class_content_text_6' => 'Xây dựng sự tự tin và hoàn thiện khả năng giao tiếp trong học tập và trong cộng đồng. Phát triển kỹ năng biểu diễn',
+        
+        //Cấp độ sơ cấp
+        'vocal_class_content_text_7' => 'Hoàn thành kiến thức và những kỹ thuật cơ bản về:',
+        'vocal_class_content_text_8' => 'Vị trí âm thanh',
+        'vocal_class_content_text_9' => 'Nốt chuyển giọng',
+        'vocal_class_content_text_10' => 'Hơi Thở',
+        'vocal_class_content_text_11' => 'Phát âm',
+        'vocal_class_content_text_12' => 'Cảm xúc âm nhạc',
+        
+        //Cấp độ trung cấp 
+        'vocal_class_content_text_13' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ sơ cấp',
+        'vocal_class_content_text_14' => 'Xây dựng một âm vực giọng xuyên suốt, âm thanh thống nhất',
+        'vocal_class_content_text_15' => 'Học tập và thực hành những thể loại âm nhạc khác nhau',
+        'vocal_class_content_text_16' => 'Xây dựng và phát triển những kỹ năng biểu đạt âm nhạc',
+        
+        //Cấp độ cao cấp
+        'vocal_class_content_text_17' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ Sơ cấp và Trung cấp',
+        'vocal_class_content_text_18' => 'Giọng hát thể hiện được sự cân bằng âm thanh với những kỹ thuật thanh nhạc khó (có quá trình luyện tập nhất định)',
+        'vocal_class_content_text_19' => 'Thể hiện được sự kết hợp giữa các yếu tố: Thể loại âm nhạc – cá tính âm nhạc – giao tiếp âm nhạc',
+        'vocal_class_content_text_20' => 'Thể hiện khả năng kết nối và giao tiếp qua việc xử lý âm thanh và không gian biểu diễn',
+        
+        'vocal_class_content_text_21' => 'Kết quả học tập được công nhận bằng những chứng chỉ quốc tế (Trinity, ABRSM)',
+        // ## VOCAL CLASS CONTENT
+
+
+        // PIANO CLASS
+
+        'piano_class_header_text' => 'Piano',
+
+        'piano_class_content_text_1' => 'Môn Piano tại PHCA với hệ thống giáo trình được thiết kế theo từng độ tuổi, trình độ. Chương trình không chỉ trang bị cho học viên những nền tảng kỹ thuật từ căn bản đến nâng cao mà còn phát triển những kỹ năng khác như kỹ năng biểu diễn, sự tự tin, khả năng tương tác và giao tiếp trước đám đông. Với không gian học tập đầy sáng tạo, học viên sẽ phát huy tối đa cá tính và tiềm nămg âm nhạc, năng lực sáng tạo, khả năng cảm nhận và phát triển tư duy logic.',
+        
+        'piano_class_content_text_2' => 'Piano cổ điển & Piano nhạc nhẹ (Rock & Pop, Jazz…)',
+        'piano_class_content_text_3' => 'Xây dựng một nền tảng kỹ thuật từ cơ bản đến nâng cao theo từng cấp độ học (cho những mục tiêu biểu đạt âm nhạc), đặc thù của những thể loại âm nhạc khác nhau.',
+        'piano_class_content_text_4' => 'Khơi gợi tính sáng tạo, sự tự tin ở mỗi học viên thông qua những bài tập ứng tấu ở mọi cấp độ.',
+        'piano_class_content_text_5' => 'Xây dựng hệ thống kiến thức âm nhạc qua từng cấp độ. Xây dựng khả năng kết nối giữa yếu tố kỹ thuật và cảm xúc. Phát triển kỹ năng biểu diễn.',
+        'piano_class_content_text_6' => 'Xây dựng khả năng phối hợp giữa các giác quan.',
+        
+        
+        //Cấp độ Sơ cấp:
+        'piano_class_content_text_7' => 'Thực hiện những kỹ năng cơ bản của môn học (tư thế ngồi, khung tay, thế ngón).',
+        'piano_class_content_text_8' => 'Hoàn thành những bài tập kỹ thuật ngón của trình độ sơ cấp',
+        'piano_class_content_text_9' => 'Xây dựng khả năng cảm nhận và biểu cảm âm nhạc.',
+        'piano_class_content_text_10' => 'Xây dựng những kỹ năng biểu diễn cơ bản.',
+        
+        //Cấp độ Trung cấp:
+        'piano_class_content_text_11' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ sơ cấp.',
+        'piano_class_content_text_12' => 'Xây dựng ý thức trong kỹ năng cảm nhận và biểu đạt âm nhac.',
+        'piano_class_content_text_13' => 'Xây dựng khả năng kiểm soát tiếng đàn qua sắc thái, tính chất âm nhạc…',
+        'piano_class_content_text_14' => 'Xây dựng và phát triển kỹ năng biểu diễn.',
+        
+        //Cấp độ Cao cấp:
+        'piano_class_content_text_15' => 'Hoàn thành kiến thức và kỹ thuật của cấp độ trung cấp.',
+        'piano_class_content_text_16' => 'Thể hiện được tính chất âm nhạc của từng thời kỳ, từng thể loại.',
+        'piano_class_content_text_17' => 'Thể hiện khả năng biểu đạt âm nhạc qua yếu tố xử lý kỹ thuật và sắc thái.',
+        'piano_class_content_text_18' => 'Thể hiện khả năng kết nối và giao tiếp qua việc xử lý âm thanh và không gian biểu diễn',
+        
+        'piano_class_content_text_19' => 'Kết quả học tập được công nhận bằng những chứng chỉ quốc tế (Trinity, ABRSM)',
+
+        // ## PIANO CLASS
         
         // FOOTER
         'copyright_text' => 'Bản quyền © 2021 thuộc về:'

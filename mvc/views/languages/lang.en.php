@@ -180,7 +180,7 @@
         // FLUTE CLASS CONTENT
         'flute_class_header_text' => 'Flute',
 
-        'flute_class_content_text_1' => 'Flute class at SMPAA provides students the ability to build and develop hand-eye coordination and breath control for sound production; enhance their concentration, meticulosity, flexibility and confidence while performing. During the course, students will explore various styles of music and are inspired by the versatility of the instrument. This program also helps students develop a sense of responsibility through the habits of instrument maintenance.',
+        'flute_class_content_text_1' => 'Flute class at PHCA provides students the ability to build and develop hand-eye coordination and breath control for sound production; enhance their concentration, meticulosity, flexibility and confidence while performing. During the course, students will explore various styles of music and are inspired by the versatility of the instrument. This program also helps students develop a sense of responsibility through the habits of instrument maintenance.',
 
         'flute_class_content_text_2' => 'Classical flute Building a foundation of techniques from basic to advanced levels.',
         'flute_class_content_text_3' => 'International musical curriculum.',
@@ -208,6 +208,152 @@
         'flute_class_content_text_20' => 'Acquire international qualifications (Trinity, ABRSM)',
 
         // ## FLUTE CLASS CONTENT
+
+
+        // STRING CLASS CONTENT
+        'string_class_header_text' => 'Strings',
+
+        'string_class_content_text_1' => 'String subjects at PHCA give students opportunities to discover and explore an important family of musical instruments. Learning string instruments gives students a hollistic perspective on music, as well as interactivity and connectivity. String techniques, requiring complex coordination of both hands, also contribute to flexibility and dexterity in the fingers, hands and arms.',
+        
+        
+        'string_class_content_text_2' => 'Learn string instruments’ techniques',
+        'string_class_content_text_3' => 'Music history and theory',
+        'string_class_content_text_4' => 'Sight-reading ability',
+        'string_class_content_text_5' => 'Build connectivity and collaboration through performing activities',
+        'string_class_content_text_6' => 'Performance skills for string players',
+        
+        
+        //Beginner Level
+        'string_class_content_text_7' => 'Complete basic techniques including posture, instrument and bow handling',
+        'string_class_content_text_8' => 'Basic instrument maintainance skills',
+        'string_class_content_text_9' => 'Accomplish pitch and simple rhythmic control through pieces and exercises',
+        'string_class_content_text_10' => 'Basic sight-reading skills',
+        
+        //Intermediate Level
+        'string_class_content_text_11' => 'Acquire all knowledge and skills of Beginner level',
+        'string_class_content_text_12' => 'Further develop sound production techniques',
+        'string_class_content_text_13' => 'Pitch control on higher positions',
+        'string_class_content_text_14' => 'Develop musicality through performance and sight-reading skills',
+        'string_class_content_text_15' => 'Preparation skills before playing',
+        
+        //Advanced Level
+        'string_class_content_text_16' => 'Acquire all knowledge and skills of Intermediate level',
+        'string_class_content_text_17' => 'Understand and be able to execute all standard techniques of string instruments',
+        'string_class_content_text_18' => 'Further develop accurate pitch control',
+        'string_class_content_text_19' => 'Musicality control',
+        
+        'string_class_content_text_20' => 'Acquire international certification (Trinity, ABRSM)',
+
+        // ## STRING CLASS CONTENT
+
+
+        // GUITAR CLASS CONTENT
+        'guitar_class_header_text' => 'Guitar',
+
+        'guitar_class_content_text_1' => 'Guitar at PHCA is a complete and comprehensive set of courses available for all skill levels and ages from six years of age and up. Whether starting at the beginner level or entering as an advanced player, students will undergo technical training, theoretical application, and creative development. The student\'s unique desires and aspirations will be addressed based on stylistic choices by the student in combination with experienced lesson planning by the teacher.',
+        
+        'guitar_class_content_text_2' => 'Learn basic techniques of the guitar',
+        'guitar_class_content_text_3' => 'Gain an understanding of different styles and how they are played',
+        'guitar_class_content_text_4' => 'Develop confidence and the ability to communicate and express music.',
+        'guitar_class_content_text_5' => 'Develop performance skills',
+        'guitar_class_content_text_6' => 'Develop coordination among the senses',
+        
+        
+        // Beginner Level
+        'guitar_class_content_text_7' => 'Learn basic technique of guitar (i.e. picking, finger transitions)',
+        'guitar_class_content_text_8' => 'Gain an understanding of different styles',
+        'guitar_class_content_text_9' => 'Obtain proper form based on student’s style',
+        'guitar_class_content_text_10' => 'Learn chords/arpeggios/scales based on level',
+        'guitar_class_content_text_11' => 'Learn sight-reading',
+        
+        // Intermediate Level
+        'guitar_class_content_text_12' => 'Acquire all knowledge and skills of Beginner level',
+        'guitar_class_content_text_13' => 'Learn intermediate guitar techniques (i.e. tremolo, slides, legato…)',
+        'guitar_class_content_text_14' => 'Introduction to improvising',
+        'guitar_class_content_text_15' => 'Learn intermediate chords/arpeggios/scales',
+        'guitar_class_content_text_16' => 'Learn to play in different styles',
+        'guitar_class_content_text_17' => 'Improve knowledge of the fret board',
+        
+        // Advanced Level
+        'guitar_class_content_text_18' => 'Apply all basic and intermediate techniques',
+        'guitar_class_content_text_19' => 'Master playing different styles based on knowledge of common harmonic, melodic, and rhythmic themes',
+        'guitar_class_content_text_20' => 'Learn advanced chords/arpeggios/scales',
+        'guitar_class_content_text_21' => 'Improve improvising in different styles',
+        'guitar_class_content_text_22' => 'Master the fret board',
+        
+        'guitar_class_content_text_23' => 'Acquire international qualifications (Trinity, ABRSM)',
+
+        // ## GUITAR CLASS CONTENT
+
+
+        // VOCAL CLASS
+        'vocal_class_header_text' => 'Vocal',
+
+        'vocal_class_content_text_1' => 'The Vocal Department at PHCA gives students not only vocal knowledge and techniques but also special skills: sensitivity, expressivity, confidence and the ability to connect and interact with others. With the PHCA vocal pedagogy, students will be able to approach the subject from a scientific perspective with an analysis of the accompanying physical feelings associated with producing vocal sound. Simultaneous work with these two factors will help students understand their own particular vocal production and improve their technique after each session.',
+        
+        'vocal_class_content_text_2' => 'Rock&Pop and Classical singing',
+        'vocal_class_content_text_3' => 'Building a foundtation of techniques from basic to advanced levels (with the aim of musical expression)',
+        'vocal_class_content_text_4' => 'The curriculum includes and balances both Vietnamese and international repertoires.',
+        'vocal_class_content_text_5' => 'Study and perform a variety of different musical styles and genres',
+        'vocal_class_content_text_6' => 'Building confidence and communication skills in class and community. Developing performance skills',
+        
+        //Beginner Level
+        'vocal_class_content_text_7' => 'Acquire knowledge and accomplish basic techniques:',
+        'vocal_class_content_text_8' => 'Vocal placement',
+        'vocal_class_content_text_9' => 'Vocal bridge (passagio)',
+        'vocal_class_content_text_10' => 'Breath management',
+        'vocal_class_content_text_11' => 'Pronunciation',
+        'vocal_class_content_text_12' => 'Musicality',
+        
+        //Intermediate Level
+        'vocal_class_content_text_13' => 'Acquire all knowledge and skills of Beginner level',
+        'vocal_class_content_text_14' => 'Building a unified sound through-out vocal range',
+        'vocal_class_content_text_15' => 'Study and perform a variety of musical genres',
+        'vocal_class_content_text_16' => 'Building and developing musical expression',
+        
+        //Advanced Level
+        'vocal_class_content_text_17' => 'Acquire all knkowledge and skills of Intermediate level',
+        'vocal_class_content_text_18' => 'Vocal ability shows a great connectivity to sound with advanced level techniques that requires a period of training',
+        'vocal_class_content_text_19' => 'Demonstrate the ability to connect different musical elements, including genres, character and communication',
+        'vocal_class_content_text_20' => 'Demonstrate the ability to connect with the audience through technical and performance space control',
+        
+        'vocal_class_content_text_21' => 'Acquire international qualifications (Trinity, ABRSM)',
+        // ##VOCAL CLASS
+
+
+        // PIANO CLASS
+        'piano_class_header_text' => 'Piano',
+
+        'piano_class_content_text_1' => 'PHCA\'s well-designed piano curriculum is suitable for all ages and skill levels. The program provides students not only technical foundations but also other skills such as performance etiquette, confidence, public interaction and communication abilities. In our creative education environment, students can develop their musical personaility and potential, creative ability, musical sensitivity, and sharpen their musicality and logical thinking.',
+        
+        'piano_class_content_text_2' => 'Classical piano and Contemporary piano (Rock & Pop, Jazz…)',
+        'piano_class_content_text_3' => 'Develop fundamental to advanced musical expression requirements of the subject and different styles of music',
+        'piano_class_content_text_4' => 'Encourage creativity and confidence in each student through improvisational exercies at all levels',
+        'piano_class_content_text_5' => 'Acquire solid knowledge of music theory, coupled with technical and musical elements. Develop performance skills',
+        'piano_class_content_text_6' => 'Develop coordination among the senses',
+        
+        
+        //Beginner Level
+        'piano_class_content_text_7' => 'Execute basic techniques of the subject (posture, arms and fingers position)',
+        'piano_class_content_text_8' => 'Complete finger exercises of the Beginner Level',
+        'piano_class_content_text_9' => 'Develop musicaility and musical expression',
+        'piano_class_content_text_10' => 'Develop basic performance etiquette',
+        
+        //Intermediate Level
+        'piano_class_content_text_11' => 'Acquire all knowledge and skills of Beginner Level',
+        'piano_class_content_text_12' => 'Continue to develop musicality and musical expression',
+        'piano_class_content_text_13' => 'Develop ability to manage the sound of the piano through dynamics and musical styles',
+        'piano_class_content_text_14' => 'Continue to develop performance skills and etiquette',
+        
+        //Advanced Level
+        'piano_class_content_text_15' => 'Acquire all knowledge and skills of Intermediate Level',
+        'piano_class_content_text_16' => 'Able to understand and execute musical characteristics of different eras and/or genres',
+        'piano_class_content_text_17' => 'Able to express music through technical and dynamics control',
+        'piano_class_content_text_18' => 'Demonstrate the ability to connect with the audience through technical and performance space control',
+        
+        'piano_class_content_text_19' => 'Acquire international qualifications (Trinity, ABRSM)',
+
+        // ##PIANO CLASS
 
         // FOOTER
         'copyright_text' => 'Copyright © 2021 by:'

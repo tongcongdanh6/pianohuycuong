@@ -10,7 +10,7 @@
         <!-- Grid column -->
         <div class="col-lg-6 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
           <!-- Image -->
-          <img src="<?= $_GLOBAL["publicURL"] ?>/public/images/programs_at_phca/flute-class-2.jpg" class="img-fluid z-depth-4">
+          <img src="<?= $_GLOBAL["publicURL"] ?>/public/images/programs_at_phca/piano-class-2.jpg" class="img-fluid z-depth-4">
 
         </div>
         <!-- Grid column -->
@@ -20,11 +20,11 @@
 
           <!-- Secion heading -->
           <h2 class="mb-5 title font-weight-bold wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
-            <strong class="text-uppercase"><?= $data["langData"]["flute_class_header_text"] ?></strong>
+            <strong class="text-uppercase"><?= $data["langData"]["piano_class_header_text"] ?></strong>
           </h2>
 
           <!-- Description -->
-          <p align="justify"><?= $data["langData"]["flute_class_content_text_1"] ?></p>
+          <p align="justify"><?= $data["langData"]["piano_class_content_text_1"] ?></p>
         </div>
         <!-- Grid column -->
 
@@ -46,15 +46,23 @@
       <div class="col-lg-6 col-md-6">
         <p class="text-justify">
           <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-          <?= $data["langData"]["flute_class_content_text_2"] ?>
+          <?= $data["langData"]["piano_class_content_text_2"] ?>
         </p>
         <p class="text-justify">
           <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-          <?= $data["langData"]["flute_class_content_text_3"] ?>
+          <?= $data["langData"]["piano_class_content_text_3"] ?>
         </p>
         <p class="text-justify">
           <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-          <?= $data["langData"]["flute_class_content_text_4"] ?>
+          <?= $data["langData"]["piano_class_content_text_4"] ?>
+        </p>
+        <p class="text-justify">
+          <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
+          <?= $data["langData"]["piano_class_content_text_5"] ?>
+        </p>
+        <p class="text-justify">
+          <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
+          <?= $data["langData"]["piano_class_content_text_6"] ?>
         </p>
       </div>
     </div>    
@@ -68,48 +76,40 @@
         <div>
           <div class="h4"><?= $data["langData"]["beginner_level_text"] ?></div>
           <p class="text-justify">
-            <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_5"] ?>
+            <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i>
+            <?= $data["langData"]["piano_class_content_text_7"] ?>
           </p>
           <p class="text-justify">
-            <?= $data["langData"]["flute_class_content_text_6"] ?>
+            <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i>
+            <?= $data["langData"]["piano_class_content_text_8"] ?>
           </p>          
           <p class="text-justify">
-            <?= $data["langData"]["flute_class_content_text_7"] ?>
+            <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i>
+            <?= $data["langData"]["piano_class_content_text_9"] ?>
           </p>          
           <p class="text-justify">
-            <?= $data["langData"]["flute_class_content_text_8"] ?>
-          </p>          
-          <p class="text-justify">
-            <?= $data["langData"]["flute_class_content_text_9"] ?>
-          </p>
-          <p class="text-justify">
-            <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_10"] ?>
-          </p>       
-          <p class="text-justify">
-            <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_11"] ?>
-          </p>        
+            <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i>
+            <?= $data["langData"]["piano_class_content_text_10"] ?>
+          </p> 
         </div>
 
         <div class="pt-2">
           <div class="h4"><?= $data["langData"]["intermediate_level_text"] ?></div>
           <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_12"] ?>
+            <?= $data["langData"]["piano_class_content_text_11"] ?>
           </p>        
           <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_13"] ?>
-          </p>       
+            <?= $data["langData"]["piano_class_content_text_12"] ?>
+          </p>
           <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_14"] ?>
-          </p>        
+            <?= $data["langData"]["piano_class_content_text_13"] ?>
+          </p>
           <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_15"] ?>
+            <?= $data["langData"]["piano_class_content_text_14"] ?>
           </p>
         </div>
 
@@ -117,22 +117,22 @@
           <div class="h4"><?= $data["langData"]["advanced_level_text"] ?></div>
           <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_16"] ?>
-          </p>        
-          <p class="text-justify">
-            <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_17"] ?>
+            <?= $data["langData"]["piano_class_content_text_15"] ?>
           </p>       
           <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_18"] ?>
+            <?= $data["langData"]["piano_class_content_text_16"] ?>
           </p>        
           <p class="text-justify">
             <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
-            <?= $data["langData"]["flute_class_content_text_19"] ?>
+            <?= $data["langData"]["piano_class_content_text_17"] ?>
+          </p>
+          <p class="text-justify">
+            <i class="fas fa-long-arrow-alt-right orange-text mr-2" aria-hidden="true"></i> 
+            <?= $data["langData"]["piano_class_content_text_18"] ?>
           </p>
           <p class="text-justify note note-success">
-            <?= $data["langData"]["flute_class_content_text_20"] ?>
+            <?= $data["langData"]["piano_class_content_text_19"] ?>
           </p>
         </div>
 
